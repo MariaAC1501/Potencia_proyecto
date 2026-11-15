@@ -1,0 +1,21 @@
+{
+  "scenario": "1: salida de línea 26–30",
+  "source": "C:\\repos\\Potencia_proyecto\\data\\IEEE118.xlsx",
+  "output": "C:\\repos\\Potencia_proyecto\\data\\IEEE118_escenario1.xlsx",
+  "source_sha256": "ed5db20ffdad419d2e87d294003c5a2bff0f64c32cae33ca126375f827b8caad",
+  "output_sha256": "26074bb8a4accf60666057f81b666d57f2219b4dd07f23e08cdb371586cc20a8",
+  "changed_sheet": "branch",
+  "changed_cell": "K39",
+  "branch_index_1based": 38,
+  "old_status": 1,
+  "new_status": 0,
+  "changes": [
+    [
+      "branch",
+      "K39",
+      1,
+      0
+    ]
+  ],
+  "definition": "Se conserva la rama, con STATUS=0 y flujos nulos."
+}

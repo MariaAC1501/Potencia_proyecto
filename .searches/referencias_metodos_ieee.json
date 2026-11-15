@@ -1,0 +1,58 @@
+{
+  "query": "Tinney Hart Power Flow Solution by Newton Method 1967 291823 Stott Alsac Fast Decoupled Load Flow 1974 293985 IEEE 118",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://diamhomes.ewi.tudelft.nl/~kvuik/papers/Ide10aLVS.pdf",
+      "title": "Fast Newton Load Flow",
+      "content": "B. Stott, “Review of load-ﬂow calculation methods,” Proceedings of the IEEE, vol. 62, no. 7, pp. 916–929, 1974.\n W. F. Tinney and C. E. Hart, “Power ﬂow solution by Newton’s method,” IEEE Transactions on Power Apparatus and Systems, vol. PAS-86, no. 11, pp. 1449–1449, 1967.\n W. F. Tinney and J. W. Walker, “Direct solutions of sparse network equations by optimally ordered triangular factorization,” Proceedings of the IEEE, vol. 55, no. 11, pp. 1801–1809, 1967. [...] B. Stott and O. Alsac, “Fast decoupled load ﬂow,” IEEE Transactions on Power Apparatus and Systems, vol. PAS-93, no. 3, pp. 859–869, 1974.\n R. A. M. van Amerongen, “A general-purpose version of the fast decoupled loadﬂow,” IEEE Transactions on Power Systems, vol. 4, no. 2, pp. 760–770, 1989.\n A. J. Monticelli, A. Garcia, and O. R. Saavedra, “Fast decoupled load ﬂow: Hypothesis, derivations, and testing,” IEEE Transactions on Power Systems, vol. 5, no. 4, pp. 1425–1431, 1990. [...] Over the years, a lot of effort has been put into solving load ﬂow problems efﬁciently. For a concise overview of earlier methods see . In modern applications, the most widely used techniques are the Newton-Raphson method with a direct linear solver , , and the Fast Decoupled Load Flow (FDLF) method , , . For an overview of the derivation of the load ﬂow problem formulation used in this paper, and the application of the two above mentioned solution methods on this problem formulation, we also",
+      "score": 0.76596165,
+      "raw_content": null,
+      "id": "a12723-00"
+    },
+    {
+      "url": "https://www.scribd.com/document/74036886/Improved-Fast-Decoupled-Power-Flow",
+      "title": "Improved Fast Decoupled Power Flow Method | PDF",
+      "content": "W.F. Tinney and C.E Hart, November 1967, Power flow solution by Newtons method. IEEE Transactions on Power Systems PAS- 86, p.1449-1456.Read more",
+      "score": 0.6466616,
+      "raw_content": null,
+      "id": "a880a4-01"
+    },
+    {
+      "url": "https://www.academia.edu/3133959/Power_flow_solution_by_Newtons_method",
+      "title": "Power flow solution by Newton's method",
+      "content": "Power flow, or load flow, is widely used in power system operation and planning. The power flow model of a power system is built using the relevant network, load, and generation data. Outputs of the power flow model include voltages at different buses, line flows in the network, and system losses. These outputs are obtained by solving nodal power balance equations. Since these equations are nonlinear, iterative techniques such as the Newton-Raphson, the Gauss-Seidel, and the fast-decoupled [...] Yenice, U. (1967) “Power flow solution by Newton's method,” Power Apparatus and Systems, IEEE …. doi: 10.1109/TPAS.1967.291823.\n\nbookmark Save to Library share Share\n\ndownload\n396\n\ndownloads\n\nformat_quote\n71 citations\n\n1967, Power Apparatus and Systems, IEEE …\n\nvisibility\n1,613 views\n\ndescription\n12 pages\n\nclose\n\nImage 9\n#### Sign up for access to the world's latest research\n\nSign up for free arrow_forward\n\ncheck Get notified about relevant papers\n\ncheck Save papers to use in your research [...] terminal circuit model and PMU voltage phase angle measurements to simplify power flow calculation. When updating current injections at the righthand side of power flow equations and using PMU voltage phase angle measurements representing PV buses voltage phase angle, the Jacobian matrix is constant during the iteration. The simplification reduces the computational efforts and improves the computation efficiency. The proposed method is tested on the IEEE 14-bus and IEEE 118-bus standard",
+      "score": 0.56920683,
+      "raw_content": null,
+      "id": "728eb9-02"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/Fast-Decoupled-Load-Flow-Stott-Alsac/42d840623ea742fe10a750a50175e7ad6351b9cb",
+      "title": "Fast Decoupled Load Flow",
+      "content": "May 1, 1974 — This paper describes a simple, very reliable and extremely fast load-flow solution method that is attractive for accurate or approximate",
+      "score": 0.464392,
+      "raw_content": null,
+      "id": "f9644b-03"
+    },
+    {
+      "url": "https://scispace.com/papers/fast-decoupled-load-flow-41i839vx2p",
+      "title": "Fast Decoupled Load Flow (1974) | B. Stott | 1565 Citations",
+      "content": "Abstract: This paper describes a simple, very reliable and extremely fast load-flow solution method with a wide range of practical application. It is attractive ...Read more",
+      "score": 0.42262435,
+      "raw_content": null,
+      "id": "da8978-04"
+    },
+    {
+      "url": "https://wjaets.com/sites/default/files/fulltext_pdf/WJAETS-2023-0305.pdf",
+      "title": "The power flow analysis for electric power network",
+      "content": "19.45 20.19 93.52 −15.45 20.55 15.45 63.2 ] −1 [ −1.4500 −0.9335 1.3000 ] = [ −0.0279rad −0.0033rad 0.0123pu ] [ 𝛿2  𝛿3  |𝑉 2| ] = [ 𝛿2  𝛿3  |𝑉 2| ] + [ Δ𝛿2  Δ𝛿3  Δ|𝑉 2| ] [ 𝛿2  𝛿3  |𝑉 2| ] = [ 0 0 1.00 ] + [ −0.0279 rad −0.033 rad 0.0123 pu ] = [ −0.0279 rad −0.0033rad 1.0123 pu ] = [ −1.5986∘ −0.1891° 1.0123 pu ] 4.3. Fast-Decoupled Approach [𝐵′] = [−65 50 50 −90] Using values from the same power matrix in Newton-Raphson method, the Fast Decoupled method can be expressed as: [Δ𝛿2 Δ𝛿3] = [...] formation at every iteration. The fast-decoupled power flow method is a simplified version of the Newton-Raphson method. This simplification is achieved in two steps: 1) decoupling real and reactive power calculations; 2) obtaining of the Jacobian matrix elements directly from the Y-bus matrix. The illustrative examples serve to guide the novel reader to understand in a tutorial faction the techniques and procedures for the solution of load flow problem. The Power World software student version [...] Electronics, and Computer Science. 2022, 1(2): 1-4.  Bhakti N, Rajani, N. Steady State Analysis of IEEE-6 Bus System Using PSAT Power Tool Box. International Journal of Engineering Science and Innovation Technology (IJESIT). 2014, 3(5): 1-7.  Albadi M. Power Flow Analysis. Computational Models in Engineering. 2019, 1-21  Kothari IJ, Nagrath DP. Modern Power System Analysis. Third Edition, McGraw-Hill. 2007.  Tinny WF, Hart CE. Power Flow Solution by Newton's Method. IEEE Transactions on Power",
+      "score": 0.40570828,
+      "raw_content": null,
+      "id": "4825ca-05"
+    }
+  ],
+  "response_time": 0.0,
+  "request_id": "7b91e322-e870-4544-9d39-fee4f000394c"
+}

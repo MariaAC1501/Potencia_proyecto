@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-11-15T19:35:09.542892+00:00",
+  "pptx_sha256": "c2198e80c10a92b91e963adb87ff50ba597b786bd9d67643b6a92eb561b46238",
+  "rendered_slides": 32,
+  "powerpoint_readonly_render": "OK",
+  "text_overflows": [],
+  "pdf_sha256": "912e3266e62f37e28134612baa9cb53c33f947be3903002eb5cbcccca9213b1c",
+  "project": "IEEE118_escenario1_video",
+  "note": "Render técnico estático, NO video real ni ensayo oral cronometrado. La revisión corresponde a estos SHA-256."
+}

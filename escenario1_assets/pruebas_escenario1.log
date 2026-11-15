@@ -1,0 +1,10 @@
+test_scenario1: único cambio STATUS, Ybus, 6 soluciones, flujos nulos, rankings, consola y Excel OK.
+    Rama    Desde    Hasta    S_base_MVA    S_escenario_MVA    Delta_MVA    Delta_pct    Abs_delta_MVA    Activa_base    Activa_escenario
+    ____    _____    _____    __________    _______________    _________    _________    _____________    ___________    ________________
+
+     38      26       30           224               0             -224         -100           224           true             false      
+     32      26       25        92.833           316.2           223.36       240.61        223.36           true             true       
+     31      23       25        171.18          307.16           135.98        79.44        135.98           true             true       
+     36      30       17        249.18          129.07          -120.11      -48.204        120.11           true             true       
+     33      25       27        146.64          233.72           87.077       59.382        87.077           true             true       
+

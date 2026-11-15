@@ -1,0 +1,16 @@
+{
+  "source_url": "https://labs.ece.uw.edu/pstca/pf118/118bus6.tif",
+  "source_page": "https://labs.ece.uw.edu/pstca/pf118/pg_tca118bus.htm",
+  "citation": "R. Christie, University of Washington, Power Systems Test Case Archive, mayo de 1993. Diagrama AEP diciembre de 1962.",
+  "sha256_tif": "b29a278ea77005d5779d4ba47360552b9a6f6cbe163b80da410afd14e0cd6bdf",
+  "crop_original_pixels": [
+    1300,
+    1000,
+    2350,
+    2850
+  ],
+  "annotation": "Resaltado y etiquetas propios; original conservado sin modificaciones.",
+  "bus26": "TannrsCk V1 / Tanners Creek 345 kV",
+  "bus30": "Sorenson V1 / Sorenson 345 kV",
+  "identity_check": "UW ieee118cdf.txt filas26 y30; kV en IEEE118.xlsx. Cruces sin barra no son nuevos nodos."
+}

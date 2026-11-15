@@ -1,0 +1,58 @@
+{
+  "query": "MATPOWER 2011 118 12 19",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://matpower.org/citing",
+      "title": "Citing MATPOWER – MATPOWER",
+      "content": "R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas, “MATPOWER: Steady-State Operations, Planning and Analysis Tools for Power Systems Research and Education,” Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12–19, Feb. 2011.  \nDOI\n\nPublications derived from the use of the MATPOWER Optimal Scheduling Tool (MOST) should cite the 2013 MOST paper, in addition to the 2011 MATPOWER paper above. [...] Skip to content\n\nMATPOWER\n\nFree, open-source tools for electric power system simulation and optimization\n\n# Citing MATPOWER\n\nWe request that publications derived from the use of MATPOWER, or the included data files, explicitly acknowledge that fact by citing the appropriate paper(s) and the software itself.\n\n## Papers\n\nAll publications derived from the use of MATPOWER, or the included data files, should cite the 2011 MATPOWER paper: [...] R. D. Zimmerman, C. E. Murillo-Sanchez (). MATPOWER  \n[Software]. Available:   \nDOI\n\nA list of versions with release dates and version-specific DOI’s can be found via the general DOI at .\n\n## User’s Manuals\n\nThe MATPOWER, MIPS and MOST User’s Manuals should also be cited explicitly in work that refers to or is derived from their content. As with the software, the citation and DOI can be version-specific or general, as appropriate. For version 8.1 of the MATPOWER User’s Manual, use:",
+      "score": 0.62303346,
+      "raw_content": null,
+      "id": "5dd498-00"
+    },
+    {
+      "url": "https://github.com/MATPOWER/matpower",
+      "title": "GitHub - MATPOWER/matpower: MATPOWER – steady state power flow simulation and optimization for MATLAB and Octave · GitHub",
+      "content": "> R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas, \"MATPOWER: Steady-State Operations, Planning and Analysis Tools for Power Systems Research and Education,\" Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12-19, Feb. 2011.  \n>  doi: 10.1109/TPWRS.2010.2051168\n\nPublications derived from the use of the MATPOWER Optimal Scheduling Tool (MOST) should cite the 2013 MOST paper, in addition to the 2011 MATPOWER paper above. [...] 1. R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas, \"MATPOWER: Steady-State Operations, Planning and Analysis Tools for Power Systems Research and Education,\" Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12–19, Feb. 2011.  \n    doi: 10.1109/TPWRS.2010.2051168.\n2. R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas, \"MATPOWER's Extensible Optimal Power Flow Architecture,\" Power and Energy Society General Meeting, 2009 IEEE, pp. 1-7, July 26-30 2009. [...] By default, the results of the simulation are pretty-printed to the screen, but the solution can also be optionally returned in a `results` struct. The following example shows how simple it is, after running a DC OPF on the 118-bus system in `case118.m`, to access the final objective function value, the real power output of generator 6 and the power flow in branch 51.\n\n```\n= 'case118' ' ' = results = results 6 PG = results 51 PF\n```",
+      "score": 0.57723385,
+      "raw_content": null,
+      "id": "24f0e7-01"
+    },
+    {
+      "url": "https://matpower.org/docs/MATPOWER-manual.pdf",
+      "title": "User's Manual",
+      "content": "256 References  R. D. Zimmerman, C. E. Murillo-S´ anchez, and R. J. Thomas, “Matpower: Steady-State Operations, Planning and Analysis Tools for Power Systems Re-search and Education,” Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12–19, Feb. 2011. doi: 10.1109/TPWRS.2010.2051168 1.1, 1.3  R. D. Zimmerman, C. E. Murillo-S´ anchez (2025). Matpower [Software]. Available:  doi: 10.5281/zenodo.3236535 1.1  C. E. Murillo-S´ anchez, R. D. Zimmerman, C. L. Anderson, and R. J. Thomas, “Secure [...] The solution is also stored in a results struct available as an optional return value from the simulation functions. This results struct is a superset of the Matpower case struct mpc, with additional columns added to some of the existing data fields 22 and additional fields. The following example shows how simple it is, after running a DC OPF on the 118-bus system in case118.m, to access the final objective function value, the real power output of generator 6 and the power flow in branch 51. [...] and Ed-ucation,” Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12–19, Feb. 2011.",
+      "score": 0.56690645,
+      "raw_content": null,
+      "id": "715e29-02"
+    },
+    {
+      "url": "https://matpower.org/docs/ref/matpower5.0/case118.html",
+      "title": "Description of case118",
+      "content": "not given, set to 0%  MVA limit of branch 15 - 17 not given, set to 0%  MVA limit of branch 16 - 17 not given, set to 0%  MVA limit of branch 17 - 18 not given, set to 0%  MVA limit of branch 18 - 19 not given, set to 0%  MVA limit of branch 19 - 20 not given, set to 0%  MVA limit of branch 15 - 19 not given, set to 0%  MVA limit of branch 20 - 21 not given, set to 0%  MVA limit of branch 21 - 22 not given, set to 0%  MVA limit of branch 22 - 23 not given, set to 0%  MVA limit of branch 23 - 24 [...] to 0%  MVA limit of branch 29 - 31 not given, set to 0%  MVA limit of branch 23 - 32 not given, set to 0%  MVA limit of branch 31 - 32 not given, set to 0%  MVA limit of branch 27 - 32 not given, set to 0%  MVA limit of branch 15 - 33 not given, set to 0%  MVA limit of branch 19 - 34 not given, set to 0%  MVA limit of branch 35 - 36 not given, set to 0%  MVA limit of branch 35 - 37 not given, set to 0%  MVA limit of branch 33 - 37 not given, set to 0%  MVA limit of branch 34 - 36 not given, set [...] to 0%  MVA limit of branch 5 - 11 not given, set to 0%  MVA limit of branch 11 - 12 not given, set to 0%  MVA limit of branch 2 - 12 not given, set to 0%  MVA limit of branch 3 - 12 not given, set to 0%  MVA limit of branch 7 - 12 not given, set to 0%  MVA limit of branch 11 - 13 not given, set to 0%  MVA limit of branch 12 - 14 not given, set to 0%  MVA limit of branch 13 - 15 not given, set to 0%  MVA limit of branch 14 - 15 not given, set to 0%  MVA limit of branch 12 - 16 not given, set to",
+      "score": 0.43799233,
+      "raw_content": null,
+      "id": "38db6a-03"
+    },
+    {
+      "url": "https://matpower.org/docs/MATPOWER-paper.pdf",
+      "title": "Steady-State Operations, Planning and Analysis Tools for ...",
+      "content": "1 MATPOWER: Steady-State Operations, Planning and Analysis Tools for Power Systems Research and Education Ray D. Zimmerman, Member, IEEE, Carlos E. Murillo-S´ anchez, Member, IEEE, and Robert J. Thomas, Life Fellow, IEEE Abstract—MATPOWER is an open-source Matlab-based power system simulation package that provides a high-level set of power ﬂow, optimal power ﬂow (OPF), and other tools targeted toward researchers, educators, and students. The OPF architecture is designed to be extensible, making [...] MATPOWER includes solvers for both AC and DC power ﬂow problems, both of which involve solving a set of equations of the form g(x) = 0 (29) constructed by expressing a subset of the nodal power balance equations as functions of unknown voltage quantities. [...] MATPOWER includes four different algorithms for solving the AC power ﬂow problem. The default solver is based on a standard Newton’s method  using a polar form and a full Jacobian updated at each iteration. Each Newton step involves computing the mismatch g(x), forming the Jacobian based on the sensitivities of these mismatches to changes in x and solving for an updated value of x by factorizing this Jacobian.\nThis method is described in detail in many textbooks.",
+      "score": 0.359657,
+      "raw_content": null,
+      "id": "34f947-04"
+    },
+    {
+      "url": "https://tavily.com/knowledge/company/2lhFniUnZSzY",
+      "title": "MATPOWER",
+      "content": "# MATPOWER\nID: 2lhFniUnZSzY\nWebsite: www.matpowersn.com\nHeadquarters: Dakar, Sénégal, Senegal\nLinkedIn: www.linkedin.com/company/matpower · 54 followers\nIndustry: Machinery Manufacturing\nCompany type: Privately Held\nFounded: 2017 [...] Description: MATPOWER est une société subsaharienne qui évolue dans plusieurs domaines d'activités: ° ÉNERGIE - Groupe Électrogène:(de petite, moyenne et grande puissances :2,5 kVa à plus de 1400 kVa) - Solaire:(Kit Solaire individuel et Central solaire.) - Équipement de protection: Onduleurs, régulateurs, batteries ° AGRICULTURE - Matériel post récolte: (Motoculteurs, motopompes, kit d’irrigation) - Matériels de récolte:(tracteurs,moissonneuses batteuses,charrues et accessoires) - Matériels de [...] ## Products and services\nKeywords: energie, matériels agricoles et hydraulique, engins, location véhicules, climatisation, services.\n\n## Headcount\n- Now: 2 · 0 yearly (0%) · 0 quarterly · 0 monthly\n\n## Reputation\n- Open roles: 0",
+      "score": 0.28735316,
+      "raw_content": null,
+      "id": "c1db37-05"
+    }
+  ],
+  "response_time": 1.66,
+  "request_id": "1edbbe9a-7f0b-48da-bf09-267526541593"
+}

@@ -1,0 +1,10 @@
+{
+  "source": "escenario1_assets\\unifilar_region_26_30.png",
+  "source_sha256": "e5e839f3f8fbd21f7ad6caf1b5ce46055fe3d97164833f3c1c6fbd1ce230e5a1",
+  "annotated_source": "escenario1_assets\\unifilar_region_26_30_anotado.png",
+  "annotated_source_sha256": "6bbba46cc5834a33c71f215534d245ac7fd9a98984876a0de39ace37e6f124a7",
+  "operation": "Copia sin cambios del recorte verificado. 26=Tanners Creek; 30=Sorenson, 345 kV.",
+  "publication_attribution": "R. Christie, University of Washington, Power Systems Test Case Archive, mayo de 1993. Diagrama AEP diciembre de 1962.",
+  "annotations_attribution": "Equipo del proyecto; etiquetas y resaltado propios, no originales UW.",
+  "output_sha256": "6bbba46cc5834a33c71f215534d245ac7fd9a98984876a0de39ace37e6f124a7"
+}

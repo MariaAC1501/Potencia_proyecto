@@ -1,0 +1,190 @@
+{
+  "built_at_utc": "2026-11-15T15:41:58.636416+00:00",
+  "description": "Lectura y contraste de evidencia guardada; no se ejecutó MATLAB ni se grabó video.",
+  "files": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE118.xlsx",
+      "sha256": "ed5db20ffdad419d2e87d294003c5a2bff0f64c32cae33ca126375f827b8caad",
+      "bytes": 25679
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE118_escenario1.xlsx",
+      "sha256": "26074bb8a4accf60666057f81b666d57f2219b4dd07f23e08cdb371586cc20a8",
+      "bytes": 27290
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE118_matlab.xlsx",
+      "sha256": "e93920c849c94424963c6b78d764bdb759e233114ddac579363728b4f96d5a10",
+      "bytes": 187116
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE118_escenario1_matlab.xlsx",
+      "sha256": "a999c36c419ba8771b5c2721fd01ae7fb0995fcb0449ac99b5b468d65670764f",
+      "bytes": 190867
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\comparacion_escenario1.xlsx",
+      "sha256": "28f3913b1f930da0921aa866defed57ea32fe876142ee5780447c9aa812ed367",
+      "bytes": 36449
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\validacion_MATPOWER.xlsx",
+      "sha256": "f9996b322e0d6e6f7a175802c58c9c7b895850ea4624c90e60cbc83592735d15",
+      "bytes": 392730
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\validacion_MATPOWER.json",
+      "sha256": "898e84b23685d6a7afa0531711248f5b6158858acab9205e008f7a10f501242c",
+      "bytes": 8260
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\ejecucion.json",
+      "sha256": "06380de9a534d6b8ce5b785e659b9d75ae27fbd1899759d9d2ffea8cde6a846f",
+      "bytes": 809
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\entrada_escenario1.json",
+      "sha256": "ed88e9249311ee10de0d7d20532d7a7bb35dc239d23069f73269d5e1290a9afb",
+      "bytes": 650
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\fuente_unifilar.json",
+      "sha256": "ce51b863c1320c9894e70705fd6afb0974b9df8ded80865366a8e439a539ddba",
+      "bytes": 745
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\README_FUENTES.md",
+      "sha256": "4930b3f04de7fb7d56fc420783975bfde2051cab6daab598cab24f8b8fc9e682",
+      "bytes": 1483
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\IEEE118_unifilar_UW.png",
+      "sha256": "97ae057b63e807ee1c625108451aa4de0b239c97d27522130c00405cd2ae53f9",
+      "bytes": 370706
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\IEEE118_unifilar_UW.tif",
+      "sha256": "b29a278ea77005d5779d4ba47360552b9a6f6cbe163b80da410afd14e0cd6bdf",
+      "bytes": 280386
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\unifilar_region_26_30.png",
+      "sha256": "e5e839f3f8fbd21f7ad6caf1b5ce46055fe3d97164833f3c1c6fbd1ce230e5a1",
+      "bytes": 36063
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\perfil_escenario1.png",
+      "sha256": "e7aea00853bbaa4f98d6d088773d376a1ee0a96b6c5e70da22b1b982113d78b3",
+      "bytes": 131939
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\redistribucion_escenario1.png",
+      "sha256": "be6594900b9d2866ad8245e8bba2063d0d2e0d782770c836f390373c0464baa2",
+      "bytes": 74542
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\unifilar_region_26_30_anotado.png",
+      "sha256": "6bbba46cc5834a33c71f215534d245ac7fd9a98984876a0de39ace37e6f124a7",
+      "bytes": 64741
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\gui_caso_base.png",
+      "sha256": "36580cde57ec4695f707ac92982b97ca792714a9c0921809e615ae3cfe6d765a",
+      "bytes": 144404
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\gui_salida_26_30.png",
+      "sha256": "a9f3ee028c49b85c342245a6150862ff4abe3e4d5b5bf96e106f38406df4e3c1",
+      "bytes": 172409
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\captura_GUI_escenario1.json",
+      "sha256": "b98fdae302f885e8ff0f655e5837e243f0f743cbeb4817e7d1d1cdae11bd964c",
+      "bytes": 4097
+    }
+  ],
+  "input_changes": [
+    [
+      "branch",
+      38,
+      "STATUS",
+      1,
+      0
+    ]
+  ],
+  "checks": [
+    "Único cambio de entrada branch!K39: STATUS 1 -> 0; resaltado verificado",
+    "Entradas exportadas y base MVA coinciden con sus libros originales",
+    "Tres métodos convergentes por caso; historiales completos y slack verificada",
+    "Sumas de pérdidas P/Q contrastadas con todas las ramas",
+    "Tabla obligatoria contrastada con las salidas NR y contadores NR/GS",
+    "Top5 de tensiones, flujos, cambios y listas fuera de rango recalculados",
+    "S máxima de ambos extremos; retirada separada; porcentajes contrastados",
+    "SHA256 del TIFF publicado coincide con fuente_unifilar.json"
+  ],
+  "supporting_logs": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\pruebas_escenario1.log",
+      "sha256": "a9fc3c750609fab0ffe7296b908ac0d7a3e3d87d77e2dcbb9e6f071e8c9cee0b",
+      "bytes": 1070
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\auditoria_evidencia.json",
+      "sha256": "04911b1a2e0c2b3dd0f40552b98f25a6a8a00ec08f3050dbe8f7b3bce2e513c5",
+      "bytes": 1585
+    }
+  ],
+  "missing_external_columns": [],
+  "word": {
+    "tables": 28,
+    "headings": 68,
+    "figures": 16,
+    "equations": 35
+  },
+  "pdf": {
+    "pages": 31,
+    "bookmarks": 68,
+    "vertical_bounds_verified": true
+  },
+  "human_pending": [
+    "Nombres reales de integrantes",
+    "Voces identificadas de todos",
+    "MP4 >=1080p, 30–40 min, audio claro",
+    "Captura continua de cada corrida hasta exportación",
+    "Notificar escenario al profesor y entregar paquete en TEC Digital un día antes"
+  ],
+  "outputs": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.md",
+      "sha256": "f427dc8e03ccc6524e8c411c7536d74301ea4673cc2c14916104884c7e8c8264",
+      "bytes": 79518
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.typ",
+      "sha256": "e8fc8d8c66acdb7085c6fc8144e210bcbcf2502540860e3b6f57dcea7be0a042",
+      "bytes": 6724
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.pdf",
+      "sha256": "c490dd5fa6684ed0573948f610e6158363fc2b0f5d7c00f7f9ba50f8546ab60f",
+      "bytes": 2587693
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.docx",
+      "sha256": "94272c5c07b11274fcf4a17cfeb35ef8287d6c4ac89b46f92350f00826dec8b7",
+      "bytes": 2259256
+    }
+  ],
+  "generators": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\tools\\build_video_report.py",
+      "sha256": "250ba014f13cb07d10832cc47b7ab4293b95b84fb4e817a5269dbc800187a5d3",
+      "bytes": 40333
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\tools\\build_report.py",
+      "sha256": "6c5995bd3b56b83338347131f93d63d7551f11deb728c4af3fe93b8d6afbf3a2",
+      "bytes": 20806
+    }
+  ]
+}

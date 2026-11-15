@@ -1,0 +1,254 @@
+{
+  "built_at_utc": "2026-11-15T15:41:55.645397+00:00",
+  "inputs": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE14_matlab.xlsx",
+      "sha256": "e6368d7da8ca89ae399ba8de0596cf6174150f47544b64740cf5c040694ddb16",
+      "bytes": 31674
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE118_matlab.xlsx",
+      "sha256": "e93920c849c94424963c6b78d764bdb759e233114ddac579363728b4f96d5a10",
+      "bytes": 187116
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE300_matlab.xlsx",
+      "sha256": "c1cff1c2d6bec51fcc179f558625f5f13d633cadea924a83723f2293fc730268",
+      "bytes": 431455
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\validacion_MATPOWER.xlsx",
+      "sha256": "f9996b322e0d6e6f7a175802c58c9c7b895850ea4624c90e60cbc83592735d15",
+      "bytes": 392730
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\validacion_MATPOWER.json",
+      "sha256": "898e84b23685d6a7afa0531711248f5b6158858acab9205e008f7a10f501242c",
+      "bytes": 8260
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE14.xlsx",
+      "sha256": "899788cb6e0f9811daac5fb6eee161402ea9b8131ba5c75ad8a0e2d9498f0013",
+      "bytes": 10060
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE118.xlsx",
+      "sha256": "ed5db20ffdad419d2e87d294003c5a2bff0f64c32cae33ca126375f827b8caad",
+      "bytes": 25679
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE300.xlsx",
+      "sha256": "9962150e111cd6951ad0dc7d165592db79af0219dca1966be019a7eb10be4443",
+      "bytes": 45413
+    }
+  ],
+  "code_files": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\app_flows.m",
+      "sha256": "fd3cb0ec03ebe9067107dfbafab62abf0d19aeec28e5742c4c7ffd1a0450130a",
+      "bytes": 23339
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\apply_q_limits.m",
+      "sha256": "c2d2d467ecbca92e760d5fc5d744b9ff0f587e4201fc242b158277e6ffd753a1",
+      "bytes": 840
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\assemble_result.m",
+      "sha256": "fac49de3d61577b420a702b879462c09f5cb9af40e325781b008fedbad90a061",
+      "bytes": 2466
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\build_ybus.m",
+      "sha256": "b1a7378387b77eb52517d1f8edd71286e69ce1b7f7e72354c8da31d906e64651",
+      "bytes": 1063
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\bus_sets.m",
+      "sha256": "d44dd05daa112fa1f5df6bf4a5a8f65cc15ef9cefb1f38cbd2b9de5dd628a311",
+      "bytes": 311
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\calculate_branch_flows.m",
+      "sha256": "e035c53d397e08d9ed08dc3f88e0473f477173d81f5d4bb3e3ef08162d511405",
+      "bytes": 1740
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\calculate_power.m",
+      "sha256": "57f4754022649ee13bd5cc31d7da0dea809be41c090411a9caa5a5fa96b9be87",
+      "bytes": 188
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\compare_scenario1.m",
+      "sha256": "5cefcbf6b94bbe794ea039a4b6a30186c94d368d6de4c44ad37aeb5f468cf80a",
+      "bytes": 7845
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\export_results_excel.m",
+      "sha256": "3cc885db510d823abc9c598b96755a55426c5fce986952e265af52052e45067d",
+      "bytes": 2259
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\fast_decoupled_matrices.m",
+      "sha256": "273e01c24e653d85c01d39c40ef7ef6ae36b2fc64564a7e3b288e6ef5a700add",
+      "bytes": 870
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\initial_voltage.m",
+      "sha256": "20bb8d86ae32eefa21bf58e265f08a564bf666c4cb709bde39a9dd1f35072505",
+      "bytes": 190
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\load_case_excel.m",
+      "sha256": "61f7dbceaf1dbfd38333c76fd1899c4e0183e1ba07260656dbd6add3b99a52e5",
+      "bytes": 6802
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\log_powerflow_iteration.m",
+      "sha256": "f18c7d365fec9597b9b0f0b67c87ecd268bfc3fd122958e8d3d0c010602b8102",
+      "bytes": 374
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\main.m",
+      "sha256": "b923c2331fb4422d9c585c564f0fb903bb1f63c0dcf4a9a074fe28329e51709f",
+      "bytes": 2876
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\plot_convergence.m",
+      "sha256": "87fbbde63996c49cf2586e5c8dbcacdc65341a8a42a0e6feb35168e3b8532b9a",
+      "bytes": 1155
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\plot_results.m",
+      "sha256": "26a3e6d63586141b9676fc2f5774d0e534a4c3ace6181e666a892eb53a976a59",
+      "bytes": 1033
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\plot_scenario1.m",
+      "sha256": "ec978e8e972382b398780ee5c4dc0360b3c30963d5fe1d4d6b0dcb6ba73cec99",
+      "bytes": 1686
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\power_mismatch.m",
+      "sha256": "7b1c449cfe9cce17ec03432af8115c973bb9b4233e5e00e6fbf8df7b80b03e77",
+      "bytes": 440
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\recommended_max_iterations.m",
+      "sha256": "3785d63f8ca8f41e4f29cb52707b1fa42c81d2998ced70f5eff604fb26ffda6a",
+      "bytes": 942
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\recommended_tolerance.m",
+      "sha256": "64ec5152442f6668320ad56335a0e640753fc4e7d20cdff63fc30a5a8c3220cf",
+      "bytes": 485
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\resolve_powerflow_files.m",
+      "sha256": "06b083ba3cb062d8fe56d4d6ac11c4a1cf7bfb11d7f43c560f160c0645b0ff4a",
+      "bytes": 573
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\result_comparison.m",
+      "sha256": "c29e5b84c3066a801ce4b0b48935a6669520303a0787419ea7f75e305b353d4f",
+      "bytes": 1056
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\run_video_project.m",
+      "sha256": "fe1a7c97bb9f6fc22b29a0c02f944501ebd56d0199d16622d8eadbd5c3a4180c",
+      "bytes": 3258
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_fast_decoupled.m",
+      "sha256": "b807ef65a9d8b7ff28153ceecac7a27b1c8259a4efa1dee6ed3a66aefa17ff20",
+      "bytes": 2637
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_gauss_seidel.m",
+      "sha256": "dc4fd7aa000f3ba55e3f3283422f3b4ae19cc0f75eecf06ccd7884f24a2b39a7",
+      "bytes": 2238
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_newton_raphson.m",
+      "sha256": "76257802d6b3f26389c74ad8a1765c8d27d1c5a6c3b98312f00ea929dcde52ae",
+      "bytes": 3565
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_power_flow.m",
+      "sha256": "a59ce3bef40d6531d3caad31a37b9665116d0243ce2bf26adf33653f1ae4350a",
+      "bytes": 2112
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\specified_power.m",
+      "sha256": "41c7bff9a318877edc6526e31e701be1e92b6ad180695e87e2cb75a79892d9c2",
+      "bytes": 553
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_app_flows.m",
+      "sha256": "86801046faeb951b4cb1e164bbdc5b61f9bf1f3cd397644dadd736e4dbceaa0f",
+      "bytes": 9184
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_plot_convergence.m",
+      "sha256": "8877aa7f85d35875b1b0ff3bd47ad737ad9bc4672153060bd8d86de84576dd0c",
+      "bytes": 2686
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_powerflow.m",
+      "sha256": "8a5f6c6af1ce068bc318f41a8f055d736f5f8fbdba787444f1271535209c712b",
+      "bytes": 13044
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_scenario1.m",
+      "sha256": "2b26847ba7070086ce6668a6482c29551b890aecccbb9b93748e48e5a827e661",
+      "bytes": 4840
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\validate_against_matpower.m",
+      "sha256": "781c3641b9de45a1b51ca543437eed5bb75803665b1e13e6052570dd959fc985",
+      "bytes": 10650
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\validate_case.m",
+      "sha256": "ef999c5be77adb098edd7492f74eaf2129e7e88097cd86f1ac25367d44995a55",
+      "bytes": 1101
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\validate_line_outage.m",
+      "sha256": "5b87add8802b2aef7ffddba0a21c7bae79b62261d1e39e123b6ae23f081befd1",
+      "bytes": 1439
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\voltage_setpoints.m",
+      "sha256": "f06426876b505343b4734dfd6abba393454ad1afbbdb13017d689373f4693f13",
+      "bytes": 1582
+    }
+  ],
+  "outputs": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.md",
+      "sha256": "f427dc8e03ccc6524e8c411c7536d74301ea4673cc2c14916104884c7e8c8264",
+      "bytes": 79518
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.typ",
+      "sha256": "e8fc8d8c66acdb7085c6fc8144e210bcbcf2502540860e3b6f57dcea7be0a042",
+      "bytes": 6724
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\datos_informe.json",
+      "sha256": "e29f3423659f29d20045b873e128a649043328a2eb725552eaa3f56aba885a37",
+      "bytes": 33903
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.pdf",
+      "sha256": "c490dd5fa6684ed0573948f610e6158363fc2b0f5d7c00f7f9ba50f8546ab60f",
+      "bytes": 2587693
+    }
+  ],
+  "pages": 31,
+  "bookmarks": 68,
+  "chapters": 15,
+  "figures": 18,
+  "verification": "Sections present, numerical evidence consistent, no horizontal overflow"
+}

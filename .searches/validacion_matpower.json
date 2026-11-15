@@ -1,0 +1,58 @@
+{
+  "query": "MATPOWER 8.1 release download Zimmerman Murillo Sanchez Thomas 2011 2051168 IEEE 118 case",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://matpower.org/citing",
+      "title": "Citing MATPOWER",
+      "content": ". E. Murillo-Sanchez, Download current release: Current release: MATPOWER 8.1 MATPOWER Discussions , including the User's Manuals and the software, in your own",
+      "score": 0.6391287,
+      "raw_content": null,
+      "id": "36665e-00"
+    },
+    {
+      "url": "https://github.com/MATPOWER/matpower",
+      "title": "GitHub - MATPOWER/matpower: MATPOWER – steady state power flow simulation and optimization for MATLAB and Octave · GitHub",
+      "content": "1. R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas, \"MATPOWER: Steady-State Operations, Planning and Analysis Tools for Power Systems Research and Education,\" Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12–19, Feb. 2011.  \n    doi: 10.1109/TPWRS.2010.2051168.\n2. R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas, \"MATPOWER's Extensible Optimal Power Flow Architecture,\" Power and Energy Society General Meeting, 2009 IEEE, pp. 1-7, July 26-30 2009. [...] > R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas, \"MATPOWER: Steady-State Operations, Planning and Analysis Tools for Power Systems Research and Education,\" Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12-19, Feb. 2011.  \n>  doi: 10.1109/TPWRS.2010.2051168\n\nPublications derived from the use of the MATPOWER Optimal Scheduling Tool (MOST) should cite the 2013 MOST paper, in addition to the 2011 MATPOWER paper above. [...] For the sake of reproducibility of research results, it is best to cite the specific version of the software used, with the version-specfic DOI. For example, for version 8.1 of MATPOWER, use:\n\n> R. D. Zimmerman, C. E. Murillo-Sanchez (2025). MATPOWER (Version 8.1) [Software]. Available:   \n>  doi: 10.5281/zenodo.15871662\n\nTo cite the MATPOWER software generally, without reference to a specific version, use the following citation and DOI, with  replaced by the year of the most recent release:",
+      "score": 0.5911811,
+      "raw_content": null,
+      "id": "287ff1-01"
+    },
+    {
+      "url": "https://matpower.org/docs/MATPOWER-manual.pdf",
+      "title": "User's Manual",
+      "content": "256 References  R. D. Zimmerman, C. E. Murillo-S´ anchez, and R. J. Thomas, “Matpower: Steady-State Operations, Planning and Analysis Tools for Power Systems Re-search and Education,” Power Systems, IEEE Transactions on, vol. 26, no. 1, pp. 12–19, Feb. 2011. doi: 10.1109/TPWRS.2010.2051168 1.1, 1.3  R. D. Zimmerman, C. E. Murillo-S´ anchez (2025). Matpower [Software]. Available:  doi: 10.5281/zenodo.3236535 1.1  C. E. Murillo-S´ anchez, R. D. Zimmerman, C. L. Anderson, and R. J. Thomas, “Secure [...] MATP WER User’s Manual Version 8.1 Ray D. Zimmerman Carlos E. Murillo-S´ anchez July 12, 2025 © 2010–2025 Power Systems Engineering Research Center (PSerc) All Rights Reserved Contents 1 Introduction 10 1.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n10 1.2 License and Terms of Use . . . . . . . . . . . . . . . . . . . . . . . .\n11 1.3 Citing Matpower . . . . . . . . . . . . . . . . . . . . . . . . . . . . [...] User’s Manuals The Matpower, MIPS and MOST User’s Manuals should also be cited explicitly in work that refers to or is derived from their content.5 As with the software, the citation and DOI can be version-specific or general, as appropriate. For version 8.1 of the Matpower User’s Manual, use: R. D. Zimmerman, C. E. Murillo-S´ anchez. Matpower User’s Manual, Version 8.1.\n2025.\n[Online].\nAvailable:",
+      "score": 0.5860734,
+      "raw_content": null,
+      "id": "92a65c-02"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/246773484_MATPOWER-A_MATLAB_Power_System_Simulation_Package_User''s_Manual",
+      "title": "(PDF) MATPOWER-A MATLAB Power System Simulation ...",
+      "content": "MATPOWER is a package of MATLAB M-files for solving power flow and optimal power flow prob- lems. MATPOWER is free. Anyone may use it. Murillo-Sánchez,",
+      "score": 0.47826138,
+      "raw_content": null,
+      "id": "b94fbd-03"
+    },
+    {
+      "url": "https://al-roomi.org/power-flow/118-bus-system",
+      "title": "Alroomi Website - 118-Bus System",
+      "content": "Ray D. Zimmerman, Carlos E. Murillo-Sánchez and others, \"MATPOWER: A MATLAB Power System Simulation Package,\" [Accessed Mar. 21, 2015]. [Online]. Available:   \n  Francisco M. Gonzalez-Longatt, \"IEEE 118 Bus Test,\" [Accessed Mar. 19, 2015]. [Online]. Available: [...] Tagged under:  Power System, Power Flow, Load Flow, Analysis, Power Operation, test case, test system, IEEE, PowerWorld Simulator, American Electric Power System, Common Data Format, PowerWorld, MATPOWER, IEEE 118 bus system, 118 bus, PSAP, PECO PSAP, System Data, case study, Power System Operation, Power Systems Analysis, Data, Power Flow Analysis, Newton-Raphson, Electric Power Systems Analysis, Single-Line Diagram, Load Flow Analysis, source code, power flow design, Power Flow Calculation, [...] \\(\\bullet\\) PowerWorld Simulator (University of Illinois) [Download]  \n \\(\\bullet\\) MATPOWER [Download]",
+      "score": 0.4603137,
+      "raw_content": null,
+      "id": "00df32-04"
+    },
+    {
+      "url": "https://zenodo.org/doi/10.5281/zenodo.15871661",
+      "title": "MATPOWER User's Manual",
+      "content": "Jul 13, 2025 — This is the User's Manual for MATPOWER, a package of M-files for solving power flow, continuation power flow and optimal power flow problems",
+      "score": 0.21655817,
+      "raw_content": null,
+      "id": "f4bfae-05"
+    }
+  ],
+  "response_time": 1.34,
+  "request_id": "bf4f7e03-c0c3-44dc-b6ea-79a7f2f04aba"
+}

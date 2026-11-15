@@ -1,0 +1,50 @@
+{
+  "query": "IEEE 118 bus one line diagram University Washington pstca",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://labs.ece.uw.edu/pstca/pf118/pg_tca118bus.htm",
+      "title": "pg_tca118bus",
+      "content": "It was later entered in IEEE Common Data Format by Rich Christie at the University of Washington in 1993. Please call any typos in the CDF file to my attention.\n\nMost of the bus names in the file were obtained from the one line diagram distributed with the package. The names were in a small font, and after many generations of copying legibility was poor, so errors of transcription may have occurred. Other bus names are simply made up. [...] The IEEE 118 Bus Test Case represents a portion of the American Electric Power System (in the Midwestern US) as of December, 1962. The data was manually entered from a copy of a copy of a copy, etc., of the AEP 118 Bus Test System document dated December, 1962 and \"made available to the electric utility industry as a standard test case\".) It was entered in PECO PSAP format by Rich Christie at the University of Washington in 1993. Please call any typos in the PSAP version to my attention. [...] Data in PECO PSAP Format (file ieee118psp.txt)\n Data in Common Data Format (file ieee118cdf.txt)\n Scanned 118 bus test case diagram (69K JPEG) (Annoyingly blurry.)\n Downloadable 600 DPI TIFF diagram (274K) (You might actually be able to read this one - load it into Word if you don't have anything else to use to see it.)\n\nRich Christie - May, 1993",
+      "score": 0.62897736,
+      "raw_content": null,
+      "id": "2c20ab-00"
+    },
+    {
+      "url": "https://al-roomi.org/power-flow/118-bus-system",
+      "title": "Alroomi Website - 118-Bus System",
+      "content": "\\(\\bullet\\) The IEEE 118 Bus Test Case represents a portion of the American Electric Power System (in the Midwestern US) as of December, 1962. It was entered in IEEE Common Data Format and PECO PSAP Format by Rich Christie at the University of Washington in 1993.  \n \\(\\bullet\\) This test case consists of 118-bus, 19 generators, 35 synchronous condensers, 177 lines, 9 transformers, and 91 loads. [...] II. Single-Line Diagram:\n\n\\(\\bullet\\) The original diagram is available in III.\n\nIII. Files: [...] \\(\\bullet\\) Most of the bus names in the file were obtained from the one line diagram distributed with the package. The names were in a small font size, and after many generations of copying legibility was poor, so errors of transcription may have occurred. Other bus names are simply made up.  \n \\(\\bullet\\) The base KV levels in the bus names are a very rough guess. The line MVA limits were not part of the original data and are made up.",
+      "score": 0.49838352,
+      "raw_content": null,
+      "id": "6ba7fa-01"
+    },
+    {
+      "url": "https://fglongatt.org/OLD/Test_Case_IEEE_118.html",
+      "title": "IEEE 118 Bus Test System :Dr. Francisco M. Gonzalez-Longatt",
+      "content": "a portion of the American Electric Power System (in the Midwestern US) as of December, 1962.  This IEEE 118 bus system contains 19 generators, 35 synchronous condensers, 177 lines, 9 transformers and 91 loads.  The data was downloaded from the IEEE power systems test case archive at .  The diagram can be consulted at  and the data for the rate lines can be seen at  and finally the data for generators have been taken from .    Single line diagram of the IEEE 118-bus test system  You can send [...] diagram of the IEEE 118 bus System (69KB JPEG) (Small readable version) | | viñeta | Downloadable 600 DPI TIFF Single Line Diagram (274KB) (Even more readable) | | viñeta | IEEE Common Data Format (CDF) [.txt File] | | viñeta | DIigSILENT PowerFactory [Download] | | viñeta | Powerworld [Download] | | viñeta | Power System Toolbox (PST) [Donwload [Donwload] | | viñeta | Power System Analysis Toolbox (PSAT) [Download] | |  | | | | |  |  | Copyright © 2008-2013. All design and images are property [...] restructuring,\" PhD dissertation, Engineering and Public Policy, Carnegie Mellon University, Pittsburg, PA, 2006.   P. M. Anderson, A. A. Fouad. Power system control and stability. New York: IEEE Press, 2003.  IEEE Recommended Practice for Excitation System Models for Power System Stability Studies. IEEE Std 421.5-1992, 1992.     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  ---  ---  ---  ---  ---  ---  ---  --- | | tEST cASES   |  |  |  --- | | viñeta | Scanned Single-Line diagram of the",
+      "score": 0.4888629,
+      "raw_content": null,
+      "id": "fcbf6e-02"
+    },
+    {
+      "url": "https://matpower.org/docs/ref/matpower5.0/case118.html",
+      "title": "Description of case118",
+      "content": "## DESCRIPTION ^\n\n```\nCASE118 Power flow data for IEEE 118 bus test case. Please see CASEFORMAT for details on the case file format. This data was converted from IEEE Common Data Format (ieee118cdf.txt) on 15-Oct-2014 by cdf2matp, rev. 2393 See end of file for warnings generated during conversion. Converted from IEEE CDF file from:  With baseKV data take from the PSAP format file from the same site, added manually on 10-Mar-2006. 08/25/93 UW ARCHIVE 100.0 1961 W IEEE 118 Bus Test Case\n``` [...] %CASE118 Power flow data for IEEE 118 bus test case.% Please see CASEFORMAT for details on the case file format. % This data was converted from IEEE Common Data Format% (ieee118cdf.txt) on 15-Oct-2014 by cdf2matp, rev. 2393% See end of file for warnings generated during conversion. %% Converted from IEEE CDF file from:%  With baseKV data take from the PSAP format file from the same site,% added manually on 10-Mar-2006. %% 08/25/93 UW ARCHIVE 100.0 1961 W IEEE 118 Bus Test Case % MATPOWER% $Id: [...] Home > matpower5.0 > case118.m\n\n# case118\n\n## PURPOSE ^\n\nCASE118 Power flow data for IEEE 118 bus test case.\n\n## SYNOPSIS ^\n\nfunction mpc = case118\n\n## DESCRIPTION ^",
+      "score": 0.35902697,
+      "raw_content": null,
+      "id": "b27b66-03"
+    },
+    {
+      "url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-33499.pdf",
+      "title": "A Real-Time Operations Manual for the IEEE 118 Bus Transmission ...",
+      "content": "by a radial 345kV backbone. Figure 5 presents a semi-geospatial view of the network with line lengths proportional to their impedances. 138kV are colored black and 345kV lines are colored red. The system is divided into three operating areas. The West Operating Area is lightly loaded and contains about 2500 MW of generation resources. The North Operating Area contains one large load center at the TIDD 345/138 kV facility (buses 59 and 63). The South Operating Area is heavily loaded and can [...] September 2022 Alexander Anderson Slaven Kincic Brett Jefferson Blaine Mcgary Corey Fallon Danielle Ciesielski John Wenskovitch Yousu Chen Prepared for the U.S. Department of Energy under Contract DE-AC05-76RL01830 Pacific Northwest National Laboratory Richland, Washington 99354 PNNL-33499 Abstract ii Abstract This document presents a sample operations manual for the IEEE 118 Bus Model, which is a synthetic test case developed in 1962 from a section of the transmission grid operated by American [...] 12: The first phase builds a cranking path from SPORN-2 to the CABINC-1 coal unit Phase 1: Build cranking path from SPORN~2 to CABINC~1 coal unit PNNL-33499 Black Start Restoration Procedure 43 Phase 2: Build cranking path from SPORN~2 to PHILO, energize 345kV line Figure 13: The second phase builds a cranking path from SPORN-2 to the PHILO combined cycle unit PNNL-33499 Black Start Restoration Procedure 44 Phase 3: Build cranking path from MUSKNG to W. KAMM, energize 345kV line Figure 14: The",
+      "score": 0.35131106,
+      "raw_content": null,
+      "id": "957436-04"
+    }
+  ],
+  "response_time": 0.95,
+  "request_id": "7fa22d24-c004-44e2-8b61-0e59df403f16"
+}

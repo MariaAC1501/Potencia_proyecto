@@ -1,0 +1,58 @@
+{
+  "query": "IEEE 118 power flow 132.47",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-33499.pdf",
+      "title": "A Real-Time Operations Manual for the IEEE 118 Bus ...",
+      "content": "must be run. Contingency Analysis is a type of power flow study with contingent component removed from the network (n-1). The Contingency Analysis output includes limit violations (SOLs, IROLs) and alarms that are sent to the operator. If contingency analysis results for any single n-1 contingency indicate line flow violations, control action must be taken within the established timeframe to mitigate any potential violations on a pre-contingency basis. The post-contingency line flow, resulting [...] procedures, and engaging in human-Utility System Operator  Substations  Breakers  Switching Orders  EMS / DMS Interface  SCADA GUI Colorization Utility Operations Engineer  Buses  Branches  Power Flow  PSSE / PSLF  System Protection  Transient Stability Application Developer  Python, MATLAB  Newton Raphson  Eigenvalues  Optimization Algorithms  OPF, SE, VVO Data Scientist  Artificial Intelligence  Deep learning  Neural Networks  Training Data  Large-scale Computing Figure [...] level. At the bulk transmission level, conventional thermal power plants (which have historically served base energy load and provided system stability through physical inertia and spinning reserves) are being displaced by intermittent renewables. Meanwhile, at the feeder level, customer rooftop solar, distributed generation, bi-directional power flows, and shifting load profiles are introducing increasing uncertainty into the validity and accuracy of traditional operations methods. Some",
+      "score": 0.4680374,
+      "raw_content": null,
+      "id": "b9d88d-00"
+    },
+    {
+      "url": "https://github.com/evgenytsydenov/ieee118_power_flow_data",
+      "title": "GitHub - evgenytsydenov/ieee118_power_flow_data: Data pipeline to build power flow cases of IEEE-118 power system · GitHub",
+      "content": "## Repository files navigation\n\nCC-BY-NC-SA-4.0 Python 3.10 DOI\n\n# Power Flow Data of IEEE-118 Bus System\n\nThe repository contains a data pipeline to build power flow cases of an IEEE-118 like power system with an hourly frequency for one year.\n\nThe system consists of 118 buses, 186 branches (177 lines, 9 transformers), 91 loads, 321 generators, and looks as follows (other image formats can be found here). [...] The prepared power flow cases can be used in research purposes for power flow analysis, static security analysis, etc.\n\n## Data Preparation Steps\n\nThe pipeline for data preparation and building power flow cases is separated into stages:\n\n parse (extract necessary parameters from the raw data)\n transform (combine and convert data to use in further steps)\n prepare (compose final dataset to create power flow cases)\n build (create power flow cases using the PandaPower engine) [...] 1. Download the source code from the latest release or clone the repository.\n2. Go to the project directory, create and activate a virtual environment, install project dependencies with pip or use poetry.\n3. Add customizations or tune parameters that are listed in definitions and used in the computation.\n4. Run `main.py` script in the activated environment. It is also possible to add the project directory to `PYTHONPATH` and run `dvc repro` in the terminal.",
+      "score": 0.45159313,
+      "raw_content": null,
+      "id": "44be40-01"
+    },
+    {
+      "url": "https://al-roomi.org/power-flow/118-bus-system",
+      "title": "Alroomi Website - 118-Bus System",
+      "content": "Flow Calculation, IEEE Test System, IEEE Common Data Format, PECO PSAP Format, PSAP Format, 118 Bus Test System, power flow program, PDF Format, Excel Format, MATPOWER Format, Word Format, [...] Tagged under:  Power System, Power Flow, Load Flow, Analysis, Power Operation, test case, test system, IEEE, PowerWorld Simulator, American Electric Power System, Common Data Format, PowerWorld, MATPOWER, IEEE 118 bus system, 118 bus, PSAP, PECO PSAP, System Data, case study, Power System Operation, Power Systems Analysis, Data, Power Flow Analysis, Newton-Raphson, Electric Power Systems Analysis, Single-Line Diagram, Load Flow Analysis, source code, power flow design, Power Flow Calculation, [...] Alroomi Website\n\nA+ A A-\n\n Parent Category: Power Systems\n Category: Power Flow Test Systems\n Hits: 55577\n Print >\")\n Email\n\n# 118-Bus System (IEEE Test Case)\n\nI. Introduction:",
+      "score": 0.3983836,
+      "raw_content": null,
+      "id": "437ad6-02"
+    },
+    {
+      "url": "https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-118-bus-system",
+      "title": "IEEE 118-Bus System",
+      "content": "The base KV levels in the bus names are a very rough guess. “The line MVA limits were not part of the original data and are made up. As a test case, this one has a lot of voltage control devices and is quite robust, converging in 5 or so iterations with a fast decoupled power flow” .\n\n## Dataset Download [...] Skip to primary sidebar\n\nElectric Grid Test Case Repository\n\nTexas A&M University College of Engineering\n\n# IEEE 118-Bus System\n\nThis IEEE 118-bus test case represents a simple approximation of the American Electric Power system (in the U.S. Midwest) as of December 1962. This IEEE 118-bus system contains 19 generators, 35 synchronous condensers, 177 lines, 9 transformers, and 91 loads .",
+      "score": 0.37216341,
+      "raw_content": null,
+      "id": "9a1c28-03"
+    },
+    {
+      "url": "https://www.mapquest.com/us/new-jersey/ieee-378254359",
+      "title": "IEEE",
+      "content": "The IEEE is a non-profit, technical professional association of more than 360,000 individual members in approximately 175 countries. The full name is the Institute of Electrical and Electronics Engineers, Inc., although most popularly known and referred to by the letters I-E-E-E. The IEEE offers its services in technical areas ranging from computer engineering, biomedical technology and telecommunications, to electric power, aerospace and consumer electronics, among others. Through its [...] others. Through its technical publishing, conferences and consensus-based standards activities, the IEEE produces 30% of the world's published literature in electrical engineering, computers and control technology, holds annually more than 300 major conferences and has nearly 900 active standards with 700 under development. The IEEE and its predecessors, the AIEE (American Institute of Electrical Engineers) and the IRE (Institute of Radio Engineers), date to 1884. The IEEE has advanced the [...] See more\n\nImage 34: NETWORK MAP TECHNOLOGY, llc Similar places American Institute ChemistsImage 35: Ugly Duckling Presse Similar places Ugly Duckling Presse (3)Image 36: NETWORK MAP TECHNOLOGY, llc Similar places NETWORK MAP TECHNOLOGY, llc\n\nImage 37",
+      "score": 0.13415107,
+      "raw_content": null,
+      "id": "f5fbcf-04"
+    },
+    {
+      "url": "https://tavily.com/knowledge/company/9iE470MJx5ei",
+      "title": "IEEE",
+      "content": "# IEEE\nID: 9iE470MJx5ei\nWebsite: www.ieee.org\nHeadquarters: Piscataway, NJ, United States\nLinkedIn: www.linkedin.com/company/ieee · 665,808 followers\nIndustry: Non-profit Organizations\nCompany type: Nonprofit\nSocial profiles: www.facebook.com/ieee.org, www.twitter.com/ieeeorg, www.crunchbase.com/organization/ieee, www.instagram.com/ieeeorg, www.youtube.com/user/ieeeorg\nPhone: 212-419-7900 [...] Description: IEEE is the world’s largest technical professional organization and is a public charity dedicated to advancing technological innovation and excellence for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing and technology information around the globe. For information about the IEEE - visit [...] ## Financials\n- Annual revenue: 646.38M USD\n- FY, 2024: revenue 646.38M gross profit 63.49M EBIT 45.70M net income 136.59M USD\n- FY, 2023: revenue 584.00M gross profit 63.67M EBIT 48.82M net income 161.48M USD\n- FY, 2022: revenue 542.16M gross profit 84.38M EBIT 72.08M net income -24.79M USD\n- FY, 2021: revenue 464.32M gross profit 91.17M EBIT 83.29M net income 186.08M USD\n\n## Funding\n- Rounds: 1\n- Total raised: 1.20M USD\n- Last round: Grant 2017-12-18 1.20M USD\n- Grant 2017-12-18 1.20M USD",
+      "score": 0.08450048,
+      "raw_content": null,
+      "id": "8ebf4e-05"
+    }
+  ],
+  "response_time": 1.94,
+  "request_id": "c519628f-26c2-4f84-aa83-36d873325fc7"
+}

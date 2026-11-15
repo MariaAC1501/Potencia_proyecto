@@ -1,0 +1,309 @@
+{
+  "created_utc": "2026-11-08T22:46:10.786089+00:00",
+  "sources_sha256_before": {
+    "data\\IEEE118.xlsx": "ed5db20ffdad419d2e87d294003c5a2bff0f64c32cae33ca126375f827b8caad",
+    "resultados_IEEE118_matlab.xlsx": "4d967781407fb98ff9c6e9aa34623092c91db752a0308153b7c89a03eea1bfba",
+    "matlab\\app_flows.m": "43e4086a18cd6a07f27498441fa41fd2168e3631ed5b27b33733483f837ce73b"
+  },
+  "scripts_sha256": {
+    "tools\\capture_demo_assets.py": "1d984426e8e2957de61a327f4d31e0e6aa683092f943f6eff383f363a380c7a8",
+    "tools\\capture_presentation_gui.m": "d01deb1e19d87dbf28c1ef96a11c2658c8f6473217402c8b9251b26ed8fa3ec4"
+  },
+  "captures": {
+    "gui_caso.png": {
+      "source": "Real app_flows uifigure / exportapp",
+      "state": "IEEE118 loaded by Cargar caso, before execution",
+      "width": 2000,
+      "height": 1100,
+      "bytes": 100968,
+      "sha256": "2ac739cb01a102e6ddc3102f6376164386bd37a9ca036698963fce2ff5482761",
+      "nonempty_checked": true
+    },
+    "gui_ejecutado.png": {
+      "source": "Real app_flows uifigure / exportapp",
+      "state": "After original Ejecutar callback, Todos (three methods)",
+      "width": 2000,
+      "height": 1100,
+      "bytes": 140248,
+      "sha256": "707308e1eb17d35e5da1afe780eb57bbdeddcd2bf67e301e0865e7d365b7106a",
+      "nonempty_checked": true
+    },
+    "gui_perfil.png": {
+      "source": "Real app_flows uifigure / exportapp",
+      "state": "Same results, real Perfil de tensión tab selected",
+      "width": 2000,
+      "height": 1100,
+      "bytes": 224787,
+      "sha256": "d852fb9ca940587384f1a897680ff5ce2a82fbd2ddf7f53e600dc5acf79d733b",
+      "nonempty_checked": true
+    },
+    "gui_archivo.png": {
+      "source": "gui_ejecutado.png",
+      "operation": "Native image crop only; no resampling or drawing",
+      "pixel_box_left_top_right_bottom": [
+        10,
+        4,
+        1990,
+        62
+      ],
+      "region": "Original first file-selection row",
+      "width": 1980,
+      "height": 58,
+      "bytes": 14508,
+      "sha256": "99c2f2607d96194b6e91ebaee565fafab410fc4960741291518aedbb0546bad3",
+      "nonempty_checked": true
+    },
+    "gui_parametros.png": {
+      "source": "gui_ejecutado.png",
+      "operation": "Native image crop only; no resampling or drawing",
+      "pixel_box_left_top_right_bottom": [
+        10,
+        62,
+        1990,
+        236
+      ],
+      "region": "Original method/tolerance/max iterations/relaxation and Execute controls",
+      "width": 1980,
+      "height": 174,
+      "bytes": 20524,
+      "sha256": "3e168569905d024c517b2987b290275893f930746119d6accfa5e35ed832e4a9",
+      "nonempty_checked": true
+    },
+    "gui_comparacion.png": {
+      "source": "gui_ejecutado.png",
+      "operation": "Native image crop only; no resampling or drawing",
+      "pixel_box_left_top_right_bottom": [
+        11,
+        496,
+        1991,
+        1089
+      ],
+      "region": "Original Comparación tab: table and convergence axes",
+      "width": 1980,
+      "height": 593,
+      "bytes": 69072,
+      "sha256": "08cb02fd763da8d4b297b6a36f7edfb9b94bd6a9d2aa6a9f2b333bf4711180fd",
+      "nonempty_checked": true
+    },
+    "excel_barras.png": {
+      "source": "data\\IEEE118.xlsx",
+      "sheet": "bus",
+      "range": "A1:I7",
+      "view": "Native contiguous range; header plus first six actual buses (BUS_I through VA).",
+      "rendering": "Real Microsoft Excel COM, temporary SaveCopyAs copy, Range.CopyPicture(xlScreen,xlBitmap); native clipboard bitmap saved without drawing; 20pt font, 36pt rows, 80% zoom, header styling and filter-arrow visibility only on discarded copy.",
+      "width": 1000,
+      "height": 457,
+      "bytes": 22019,
+      "sha256": "08729edc903d1f6205fa155e7a19db90b44dca79ecfb87a5d6ace5a35cd907fc",
+      "nonempty_checked": true
+    },
+    "excel_comparacion.png": {
+      "source": "resultados_IEEE118_matlab.xlsx",
+      "sheet": "comparacion",
+      "range": "A1:G4",
+      "checked_display": {
+        "B2": {
+          "value": true,
+          "displayed_text": "VERDADERO"
+        },
+        "C2": {
+          "value": 3.0,
+          "displayed_text": "3"
+        },
+        "D2": {
+          "value": 1.48832036623215e-12,
+          "displayed_text": "1,488E-12"
+        },
+        "D3": {
+          "value": 9.875174455942215e-09,
+          "displayed_text": "9,875E-09"
+        },
+        "D4": {
+          "value": 2.745470573106701e-09,
+          "displayed_text": "2,745E-09"
+        },
+        "E2": {
+          "value": 0.1090047,
+          "displayed_text": "0,109005"
+        },
+        "F2": {
+          "value": 132.86287188870665,
+          "displayed_text": "132,862872"
+        },
+        "G2": {
+          "value": -557.9474231216519,
+          "displayed_text": "-557,947423"
+        }
+      },
+      "view": "All seven exported columns, all three real methods; stored timing values, not recalc.",
+      "rendering": "Real Microsoft Excel COM, temporary SaveCopyAs copy, Range.CopyPicture(xlScreen,xlBitmap); native clipboard bitmap saved without drawing; 20pt font, 36pt rows, 80% zoom, header styling and filter-arrow visibility only on discarded copy.",
+      "width": 1706,
+      "height": 277,
+      "bytes": 31429,
+      "sha256": "16f6cc817f3e76250d574af417e74440381379d626bd7c40439f47f52bcc4263",
+      "nonempty_checked": true
+    },
+    "excel_tensiones.png": {
+      "source": "resultados_IEEE118_matlab.xlsx",
+      "sheet": "NR_bus",
+      "source_ranges": [
+        "A1:A7",
+        "O1:O7",
+        "P1:P7"
+      ],
+      "checked_display": {
+        "A2": {
+          "value": 1.0,
+          "displayed_text": "1"
+        },
+        "A3": {
+          "value": 2.0,
+          "displayed_text": "2"
+        },
+        "A4": {
+          "value": 3.0,
+          "displayed_text": "3"
+        },
+        "A5": {
+          "value": 4.0,
+          "displayed_text": "4"
+        },
+        "A6": {
+          "value": 5.0,
+          "displayed_text": "5"
+        },
+        "A7": {
+          "value": 6.0,
+          "displayed_text": "6"
+        },
+        "B2": {
+          "value": 0.955,
+          "displayed_text": "0,955000"
+        },
+        "B3": {
+          "value": 0.9713927945169885,
+          "displayed_text": "0,971393"
+        },
+        "B4": {
+          "value": 0.9676919444484393,
+          "displayed_text": "0,967692"
+        },
+        "B5": {
+          "value": 0.9980000000000001,
+          "displayed_text": "0,998000"
+        },
+        "B6": {
+          "value": 1.0019846369032666,
+          "displayed_text": "1,001985"
+        },
+        "B7": {
+          "value": 0.99,
+          "displayed_text": "0,990000"
+        },
+        "C2": {
+          "value": 10.972739981438503,
+          "displayed_text": "10,972740"
+        },
+        "C3": {
+          "value": 11.512547449039456,
+          "displayed_text": "11,512547"
+        },
+        "C4": {
+          "value": 11.856190021011994,
+          "displayed_text": "11,856190"
+        },
+        "C5": {
+          "value": 15.574089762696657,
+          "displayed_text": "15,574090"
+        },
+        "C6": {
+          "value": 16.019178521603894,
+          "displayed_text": "16,019179"
+        },
+        "C7": {
+          "value": 13.29187175619872,
+          "displayed_text": "13,291872"
+        }
+      },
+      "view": "Temporary sheet captura_tensiones!A1:C7: BUS_I, VM_pu, VA_deg; header plus first six NR buses, copied unchanged with Value2; display rounded to six decimals.",
+      "rendering": "Real Microsoft Excel COM, temporary SaveCopyAs copy, Range.CopyPicture(xlScreen,xlBitmap); native clipboard bitmap saved without drawing; 20pt font, 36pt rows, 80% zoom, header styling and filter-arrow visibility only on discarded copy.",
+      "width": 607,
+      "height": 457,
+      "bytes": 20163,
+      "sha256": "46d256af61825f4c5e4aec81f9a100303a6d045a6eab4248e033a1b62ef75531",
+      "nonempty_checked": true
+    }
+  },
+  "errors": [],
+  "matlab": {
+    "source": "matlab/app_flows.m",
+    "engine": "MATLAB R2025a exportapp",
+    "metadata": {
+      "figure_size": [
+        2000,
+        1100
+      ],
+      "coordinate_system": "MATLAB figure pixels, bottom-left; [x y width height]",
+      "crops": {
+        "gui_archivo": [
+          10,
+          1038,
+          1980,
+          58
+        ],
+        "gui_parametros": [
+          10,
+          864,
+          1980,
+          174
+        ],
+        "gui_comparacion": [
+          11,
+          11,
+          1980,
+          593
+        ]
+      },
+      "results": [
+        {
+          "Metodo": "Newton-Raphson",
+          "Convergio": true,
+          "Iteraciones": 3,
+          "ErrorFinalPU": 1.48832036623215e-12,
+          "PerdidasPMW": 132.86287188870665
+        },
+        {
+          "Metodo": "Gauss-Seidel",
+          "Convergio": true,
+          "Iteraciones": 757,
+          "ErrorFinalPU": 9.875174455942215e-09,
+          "PerdidasPMW": 132.8628723467637
+        },
+        {
+          "Metodo": "Desacoplado rápido",
+          "Convergio": true,
+          "Iteraciones": 9,
+          "ErrorFinalPU": 2.745470573106701e-09,
+          "PerdidasPMW": 132.8628718861326
+        }
+      ],
+      "loaded_file": "C:\\repos\\Potencia_proyecto\\data\\IEEE118.xlsx",
+      "callback": "Original ButtonPushedFcn: Cargar caso; Ejecutar métodos (Todos)",
+      "options": {
+        "tolerance": 1e-08,
+        "relaxation": 1.5,
+        "enforceQLimits": false,
+        "maxIterations": 1000
+      }
+    },
+    "styling": "Window 2000x1100, light theme, larger fonts, row/column sizes only; no data edits."
+  },
+  "excel_version": "16.0",
+  "sources_sha256_after": {
+    "data\\IEEE118.xlsx": "ed5db20ffdad419d2e87d294003c5a2bff0f64c32cae33ca126375f827b8caad",
+    "resultados_IEEE118_matlab.xlsx": "4d967781407fb98ff9c6e9aa34623092c91db752a0308153b7c89a03eea1bfba",
+    "matlab\\app_flows.m": "43e4086a18cd6a07f27498441fa41fd2168e3631ed5b27b33733483f837ce73b"
+  },
+  "originals_unchanged": true,
+  "complete": true
+}

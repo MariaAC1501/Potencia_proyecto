@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": [
+    "único cambio numérico y resaltado",
+    "6 soluciones e historiales completos",
+    "entradas exportadas intactas",
+    "flujos nulos de línea retirada",
+    "balances y potencia slack",
+    "rangos de guía y top 5 reproducibles",
+    "MATPOWER base incluyendo pérdidas P/Q y slack P/Q"
+  ],
+  "materials_checked": [
+    "README.md",
+    "GUIA_USO_MATLAB.md",
+    "MATLAB_README.md",
+    "PRESENTACION.md",
+    "PRESENTACION.pptx",
+    "PRESENTACION.pdf",
+    "GUION_PARA_EXPONER.md",
+    "GUION_PARA_EXPONER.pdf",
+    "INFORME_PROYECTO_MATLAB.md",
+    "INFORME_PROYECTO_MATLAB.docx",
+    "INFORME_PROYECTO_MATLAB.pdf",
+    "CUMPLIMIENTO_GUIA_VIDEO.md"
+  ],
+  "question_before_answer_pairs_checked": 3,
+  "sha256": {
+    "data\\IEEE118.xlsx": "ed5db20ffdad419d2e87d294003c5a2bff0f64c32cae33ca126375f827b8caad",
+    "data\\IEEE118_escenario1.xlsx": "26074bb8a4accf60666057f81b666d57f2219b4dd07f23e08cdb371586cc20a8",
+    "resultados_IEEE118_matlab.xlsx": "e93920c849c94424963c6b78d764bdb759e233114ddac579363728b4f96d5a10",
+    "resultados_IEEE118_escenario1_matlab.xlsx": "a999c36c419ba8771b5c2721fd01ae7fb0995fcb0449ac99b5b468d65670764f",
+    "comparacion_escenario1.xlsx": "28f3913b1f930da0921aa866defed57ea32fe876142ee5780447c9aa812ed367",
+    "validacion_MATPOWER.json": "898e84b23685d6a7afa0531711248f5b6158858acab9205e008f7a10f501242c"
+  },
+  "human_pending": [
+    "Integrantes/nombres y distribución de voces",
+    "Grabación MP4 real continua,1080p,30–40min",
+    "Ensayo cronometrado y verificación de audio",
+    "Confirmación del escenario al profesor y entrega TEC Digital"
+  ]
+}

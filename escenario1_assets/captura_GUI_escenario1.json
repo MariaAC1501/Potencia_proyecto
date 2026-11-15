@@ -1,0 +1,148 @@
+{
+  "timestampUTC": "2026-11-15T15:05:58Z",
+  "matlabVersion": "25.1.0.2973910 (R2025a) Update 1",
+  "callbackSequence": [
+    "Ejecutar métodos (Todos, IEEE118 base)",
+    "Retirar línea 26–30"
+  ],
+  "base": [
+    {
+      "Metodo": "Newton-Raphson",
+      "Convergio": true,
+      "Iteraciones": 3,
+      "ErrorFinalPU": 1.48832036623215E-12,
+      "Tiempo_s": 0.1262828,
+      "PerdidasPMW": 132.86287188870665,
+      "Perdidas_Q_MVAr": -557.94742312165192,
+      "P_slack_MW": 513.86287188869039,
+      "Q_slack_MVAr": -82.4240572922727
+    },
+    {
+      "Metodo": "Gauss-Seidel",
+      "Convergio": true,
+      "Iteraciones": 757,
+      "ErrorFinalPU": 9.875174455942215E-9,
+      "Tiempo_s": 0.4690048,
+      "PerdidasPMW": 132.86287234676371,
+      "Perdidas_Q_MVAr": -557.94742014361907,
+      "P_slack_MW": 513.862878256053,
+      "Q_slack_MVAr": -82.424057683795667
+    },
+    {
+      "Metodo": "Desacoplado rápido",
+      "Convergio": true,
+      "Iteraciones": 9,
+      "ErrorFinalPU": 2.7454705731067008E-9,
+      "Tiempo_s": 0.0433172,
+      "PerdidasPMW": 132.86287188613261,
+      "Perdidas_Q_MVAr": -557.947423128752,
+      "P_slack_MW": 513.86287184061553,
+      "Q_slack_MVAr": -82.424057289927958
+    }
+  ],
+  "scenario": [
+    {
+      "Metodo": "Newton-Raphson",
+      "Convergio": true,
+      "Iteraciones": 4,
+      "ErrorFinalPU": 4.2921352027404174E-14,
+      "Tiempo_s": 0.0784894,
+      "PerdidasPMW": 165.89768594160896,
+      "Perdidas_Q_MVAr": -312.66996954443391,
+      "P_slack_MW": 546.89768594160739,
+      "Q_slack_MVAr": -79.013080244381854
+    },
+    {
+      "Metodo": "Gauss-Seidel",
+      "Convergio": true,
+      "Iteraciones": 909,
+      "ErrorFinalPU": 9.8603356035731338E-9,
+      "Tiempo_s": 0.5302836,
+      "PerdidasPMW": 165.89768538162437,
+      "Perdidas_Q_MVAr": -312.66997311877668,
+      "P_slack_MW": 546.89767957215588,
+      "Q_slack_MVAr": -79.013079913780842
+    },
+    {
+      "Metodo": "Desacoplado rápido",
+      "Convergio": true,
+      "Iteraciones": 11,
+      "ErrorFinalPU": 1.9433148376165068E-9,
+      "Tiempo_s": 0.0359018,
+      "PerdidasPMW": 165.89768592665516,
+      "Perdidas_Q_MVAr": -312.66996958696029,
+      "P_slack_MW": 546.89768576233,
+      "Q_slack_MVAr": -79.013080238012549
+    }
+  ],
+  "comparison": [
+    {
+      "Variable": "Tensión mínima (pu)",
+      "Caso_base": 0.94300000000000006,
+      "Escenario": 0.94004016623436748,
+      "Diferencia": -0.00295983376563258
+    },
+    {
+      "Variable": "Barra de tensión mínima",
+      "Caso_base": 76,
+      "Escenario": 21,
+      "Diferencia": null
+    },
+    {
+      "Variable": "Tensión máxima (pu)",
+      "Caso_base": 1.05,
+      "Escenario": 1.05,
+      "Diferencia": 0
+    },
+    {
+      "Variable": "Barra de tensión máxima",
+      "Caso_base": 10,
+      "Escenario": 10,
+      "Diferencia": null
+    },
+    {
+      "Variable": "Barras fuera de 0.95–1.05 pu",
+      "Caso_base": 3,
+      "Escenario": 6,
+      "Diferencia": 3
+    },
+    {
+      "Variable": "P de la barra slack 69 (MW)",
+      "Caso_base": 513.86287188869039,
+      "Escenario": 546.89768594160739,
+      "Diferencia": 33.034814052917
+    },
+    {
+      "Variable": "Q de la barra slack 69 (MVAr)",
+      "Caso_base": -82.4240572922727,
+      "Escenario": -79.013080244381854,
+      "Diferencia": 3.410977047890853
+    },
+    {
+      "Variable": "Pérdidas totales (MW)",
+      "Caso_base": 132.86287188870665,
+      "Escenario": 165.89768594160896,
+      "Diferencia": 33.034814052902306
+    },
+    {
+      "Variable": "Iteraciones Newton-Raphson",
+      "Caso_base": 3,
+      "Escenario": 4,
+      "Diferencia": 1
+    },
+    {
+      "Variable": "Iteraciones Gauss-Seidel",
+      "Caso_base": 757,
+      "Escenario": 909,
+      "Diferencia": 152
+    },
+    {
+      "Variable": "Pérdidas netas Q de ramas (MVAr)",
+      "Caso_base": -557.94742312165192,
+      "Escenario": -312.66996954443391,
+      "Diferencia": 245.277453577218
+    }
+  ],
+  "temporaryExportsOnly": true,
+  "recordingStatus": "Capturas técnicas estáticas; no son video continuo ni acreditan voces"
+}

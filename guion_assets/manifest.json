@@ -1,0 +1,14 @@
+{
+  "built_at_utc": "2026-11-15T19:35:11.806225+00:00",
+  "presentation_sha256": "c2198e80c10a92b91e963adb87ff50ba597b786bd9d67643b6a92eb561b46238",
+  "presentation_pdf_sha256": "912e3266e62f37e28134612baa9cb53c33f947be3903002eb5cbcccca9213b1c",
+  "speech_source_sha256": "41825591c548a7a7dd873d5a11cb1a39654cd3233154268e605ea9a9fbbcb605",
+  "pdf_sha256": "97175106342cf96bef6f0ed8e653040bd12f4f91f41f61580ebc5f02a6f6d73b",
+  "slides": 32,
+  "main_slides": 32,
+  "backup_slides": 0,
+  "planned_seconds": 2145,
+  "speech_words": 4271,
+  "pages": 33,
+  "layout": "Portada + una página por diapositiva"
+}

@@ -1,0 +1,899 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T17:32:51Z",
+      "timestamp": 1793122371714,
+      "version": "4.5.0"
+    },
+    "reference-count": 25,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1967,
+              11,
+              1
+            ]
+          ],
+          "date-time": "1967-11-01T00:00:00Z",
+          "timestamp": -68428800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. on Power Apparatus and Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1967,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1109/tpas.1967.291823",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          2,
+          23
+        ]
+      ],
+      "date-time": "2007-02-23T12:48:23Z",
+      "timestamp": 1172234903000
+    },
+    "page": "1449-1460",
+    "source": "Crossref",
+    "is-referenced-by-count": 949,
+    "title": [
+      "Power Flow Solution by Newton's Method"
+    ],
+    "prefix": "10.1109",
+    "volume": "PAS-86",
+    "author": [
+      {
+        "given": "William.",
+        "family": "Tinney",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Clifford",
+        "family": "Hart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1963.291477"
+      },
+      {
+        "key": "ref11",
+        "article-title": "ordered eliminations",
+        "author": "carpentier",
+        "year": "0",
+        "journal-title": "Proc 1963 Power System Computation Conf"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1966.291537"
+      },
+      {
+        "key": "ref13",
+        "article-title": "ordered triangular factorization of matrices",
+        "author": "edelmann",
+        "year": "0",
+        "journal-title": "Proc 1966 Power System Computation Conf"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2003941"
+      },
+      {
+        "key": "ref15",
+        "first-page": "408",
+        "author": "ralston",
+        "year": "1965",
+        "journal-title": "A First Course in Numerical Analysis"
+      },
+      {
+        "key": "ref16",
+        "first-page": "48",
+        "author": "hadley",
+        "year": "1964",
+        "journal-title": "Nonlinear and Dynamic Programinng"
+      },
+      {
+        "key": "ref17",
+        "first-page": "135",
+        "author": "householder",
+        "year": "1953",
+        "journal-title": "Principles of Numerical Analysis"
+      },
+      {
+        "key": "ref18",
+        "article-title": "bounded variables load flow problems",
+        "author": "feingold",
+        "year": "0",
+        "journal-title": "Proc 1966 Power System Computation Conf"
+      },
+      {
+        "key": "ref19",
+        "article-title": "direct methods for linear networks of load flow computation",
+        "author": "feingold",
+        "year": "0",
+        "journal-title": "Proc 1966 Pouter System Computation Conf"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1959.4500383"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1957.4499665"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1959.4500466"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1959.4500610"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1963.291392"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1961.4501030"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1957.4499563"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/piee.1964.0259"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1956.4499318"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1968.292254"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01580158"
+      },
+      {
+        "key": "ref21",
+        "author": "dommel",
+        "year": "1962",
+        "journal-title": "Digitale Rechenverfahren fuer elektrische Netze"
+      },
+      {
+        "key": "ref24",
+        "first-page": "351",
+        "article-title": "mathematische behandlung von aufgaben der netzplanung und des netzbetriebs",
+        "volume": "87",
+        "author": "baumann",
+        "year": "1966",
+        "journal-title": "Elektrotechnische Z A"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01419339"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1961.4501030"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Power Apparatus and Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/10669/4073196/04073219.pdf?arnumber=4073219",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          29
+        ]
+      ],
+      "date-time": "2021-11-29T15:53:04Z",
+      "timestamp": 1638201184000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/4073219/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1967,
+          11
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "11"
+    },
+    "URL": "https://doi.org/10.1109/tpas.1967.291823",
+    "relation": {},
+    "ISSN": [
+      "0018-9510"
+    ],
+    "issn-type": [
+      {
+        "value": "0018-9510",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1967,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2026-11-04T19:50:06Z",
+      "timestamp": 1793821806943,
+      "version": "4.6.1"
+    },
+    "reference-count": 24,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1974,
+              5,
+              1
+            ]
+          ],
+          "date-time": "1974-05-01T00:00:00Z",
+          "timestamp": 136598400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Power Appar. Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1974,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/tpas.1974.293985",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          2,
+          23
+        ]
+      ],
+      "date-time": "2007-02-23T12:48:23Z",
+      "timestamp": 1172234903000
+    },
+    "page": "859-869",
+    "source": "Crossref",
+    "is-referenced-by-count": 1157,
+    "title": [
+      "Fast Decoupled Load Flow"
+    ],
+    "prefix": "10.1109",
+    "volume": "PAS-93",
+    "author": [
+      {
+        "given": "B.",
+        "family": "Stott",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "O.",
+        "family": "Alsac",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/piee.1971.0197"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1972.293524"
+      },
+      {
+        "key": "ref12",
+        "author": "stagg",
+        "year": "1968",
+        "journal-title": "Computer Methods in Power System Analysis"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1971.292904"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1971.292947"
+      },
+      {
+        "key": "ref15",
+        "article-title": "further developments in newton's method for power system applications",
+        "author": "dommel",
+        "year": "1970",
+        "journal-title": "1970 IEEE Winter Power Meeting"
+      },
+      {
+        "key": "ref16",
+        "first-page": "125",
+        "article-title": "solution of large powersystem networks by ordered elimination: a comparison of ordering schemes",
+        "volume": "118",
+        "author": "stott",
+        "year": "1971",
+        "journal-title": "Proc IEE"
+      },
+      {
+        "key": "ref17",
+        "author": "hassall",
+        "year": "1972",
+        "journal-title": "Comparison of modern loa flowme1hods"
+      },
+      {
+        "key": "ref18",
+        "author": "stott",
+        "year": "0"
+      },
+      {
+        "key": "ref19",
+        "first-page": "19",
+        "author": "froberg",
+        "year": "1966",
+        "journal-title": "Introduction to Numerical Analysis"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2048",
+        "DOI": "10.1109/TPAS.1972.293536",
+        "article-title": "iterative linear ac power flow solution for fast approximate outage studies",
+        "volume": "pas 91",
+        "author": "peterson",
+        "year": "1972",
+        "journal-title": "IEEE Trans (Power Apparatus and Systems)"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PROC.1967.6011"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1971.292949"
+      },
+      {
+        "key": "ref5",
+        "article-title": "steady state security monitoring",
+        "author": "tinney",
+        "year": "1971",
+        "journal-title": "Proc Symposium on real time control of elec power systems"
+      },
+      {
+        "key": "ref8",
+        "article-title": "approximated jacobians in newton's power flow method",
+        "author": "uemura",
+        "year": "1972",
+        "journal-title": "Proc Power System Computation Conference"
+      },
+      {
+        "key": "ref7",
+        "first-page": "386",
+        "article-title": "power flow solutions by a z-matrixtype method and its application to contingency evaluation",
+        "author": "uemura",
+        "year": "1971",
+        "journal-title": "PICA Conference Record"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1967.291823"
+      },
+      {
+        "key": "ref1",
+        "article-title": "representative bibliography on loadflow analysis and related topics",
+        "author": "conner",
+        "year": "1973",
+        "journal-title": "1973 IEEE Winter Power Meeting"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1972.293252"
+      },
+      {
+        "key": "ref20",
+        "article-title": "using the pdp8/e as a network analyser",
+        "author": "hobson",
+        "year": "0",
+        "journal-title": "1972 Decus Australia Symposium"
+      },
+      {
+        "key": "ref22",
+        "year": "0"
+      },
+      {
+        "key": "ref21",
+        "article-title": "a new modified newton's method for load-flow analysis",
+        "author": "billinton",
+        "year": "1972",
+        "journal-title": "IEEE Winter Power Meeting"
+      },
+      {
+        "key": "ref24",
+        "author": "alsac",
+        "year": "0"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1974.293972"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Power Apparatus and Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/10669/4075415/04075431.pdf?arnumber=4075431",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          29
+        ]
+      ],
+      "date-time": "2021-11-29T15:53:45Z",
+      "timestamp": 1638201225000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/4075431/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1974,
+          5
+        ]
+      ]
+    },
+    "references-count": 24,
+    "journal-issue": {
+      "issue": "3"
+    },
+    "URL": "https://doi.org/10.1109/tpas.1974.293985",
+    "relation": {},
+    "ISSN": [
+      "0018-9510"
+    ],
+    "issn-type": [
+      {
+        "value": "0018-9510",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1974,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2026-11-07T04:13:07Z",
+      "timestamp": 1794024787274,
+      "version": "4.8.0"
+    },
+    "reference-count": 19,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2011-02-01T00:00:00Z",
+          "timestamp": 1296518400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Power Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1109/tpwrs.2010.2051168",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2010-06-25T09:01:35Z",
+      "timestamp": 1277456495000
+    },
+    "page": "12-19",
+    "source": "Crossref",
+    "is-referenced-by-count": 6062,
+    "title": [
+      "MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education"
+    ],
+    "prefix": "10.1109",
+    "volume": "26",
+    "author": [
+      {
+        "given": "Ray Daniel",
+        "family": "Zimmerman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos Edmundo",
+        "family": "Murillo-Sanchez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert John",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIEEPAS.1957.4499665"
+      },
+      {
+        "key": "ref11",
+        "author": "wood",
+        "year": "1996",
+        "journal-title": "Power Generation Operation and Control"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2006.888950"
+      },
+      {
+        "key": "ref13",
+        "year": "2008",
+        "journal-title": "Optimization Toolbox 4 Users's Guide"
+      },
+      {
+        "key": "ref14",
+        "year": "0",
+        "journal-title": "BPMPD_MEX"
+      },
+      {
+        "key": "ref15",
+        "author": "mszros",
+        "year": "1996",
+        "journal-title": "The efficient implementation of interior point methods for linear programming and their applications"
+      },
+      {
+        "key": "ref16",
+        "year": "0",
+        "journal-title": "MINOPF"
+      },
+      {
+        "key": "ref17",
+        "year": "0",
+        "journal-title": "TSPOPF"
+      },
+      {
+        "key": "ref18",
+        "author": "murtagh",
+        "year": "0",
+        "journal-title": "MINOS 5 5 User's Guide"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2007.901301"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PSCE.2004.1397612"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0167-9236(98)00083-9"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PES.2009.5275967"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2005.851911"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1974.293985"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAS.1967.291823"
+      },
+      {
+        "key": "ref2",
+        "year": "0",
+        "journal-title": "GNU General Public License"
+      },
+      {
+        "key": "ref1",
+        "author": "zimmerman",
+        "year": "0",
+        "journal-title": "MATPOWER User's Manual"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/59.193851"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Power Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/59/5695072/05491276.pdf?arnumber=5491276",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2021-10-10T20:45:53Z",
+      "timestamp": 1633898753000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/5491276/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          2
+        ]
+      ]
+    },
+    "references-count": 19,
+    "journal-issue": {
+      "issue": "1"
+    },
+    "URL": "https://doi.org/10.1109/tpwrs.2010.2051168",
+    "relation": {},
+    "ISSN": [
+      "0885-8950",
+      "1558-0679"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-8950",
+        "type": "print"
+      },
+      {
+        "value": "1558-0679",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          2
+        ]
+      ]
+    }
+  }
+]

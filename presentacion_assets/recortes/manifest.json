@@ -1,0 +1,86 @@
+{
+  "barras": {
+    "source": "C:\\repos\\Potencia_proyecto\\presentacion_assets\\capturas\\excel_barras.png",
+    "source_sha256": "08729edc903d1f6205fa155e7a19db90b44dca79ecfb87a5d6ace5a35cd907fc",
+    "pixel_box": [
+      0,
+      0,
+      452,
+      337
+    ],
+    "operation": "Native crop; no redrawing or resampling",
+    "output_sha256": "640f574989388a4ef21a7bbda98bb5f2721c8b3f4376d521563e6af4ae8b2f3b"
+  },
+  "archivo": {
+    "source": "C:\\repos\\Potencia_proyecto\\presentacion_assets\\capturas\\gui_archivo.png",
+    "source_sha256": "99c2f2607d96194b6e91ebaee565fafab410fc4960741291518aedbb0546bad3",
+    "pixel_box": [
+      220,
+      0,
+      850,
+      58
+    ],
+    "operation": "Native crop; no redrawing or resampling",
+    "output_sha256": "071a8a4c383bce098f63cce6b5e51a82412016d0e15bf7e8b350561f7c0c730c"
+  },
+  "seleccionar": {
+    "source": "C:\\repos\\Potencia_proyecto\\presentacion_assets\\capturas\\gui_archivo.png",
+    "source_sha256": "99c2f2607d96194b6e91ebaee565fafab410fc4960741291518aedbb0546bad3",
+    "pixel_box": [
+      1300,
+      0,
+      1540,
+      58
+    ],
+    "operation": "Native crop; no redrawing or resampling",
+    "output_sha256": "e1c9bc8891427ea0a487b7965bd5e7392f42b1cd289dce39ee9a1bcd8ef068df"
+  },
+  "metodo": {
+    "source": "C:\\repos\\Potencia_proyecto\\presentacion_assets\\capturas\\gui_parametros.png",
+    "source_sha256": "3e168569905d024c517b2987b290275893f930746119d6accfa5e35ed832e4a9",
+    "pixel_box": [
+      145,
+      0,
+      550,
+      54
+    ],
+    "operation": "Native crop; no redrawing or resampling",
+    "output_sha256": "7463c5dc96aef044eac90711d7d8c06bcae18bf9d2df5354e9cbbb8491413541"
+  },
+  "tolerancia": {
+    "source": "C:\\repos\\Potencia_proyecto\\presentacion_assets\\capturas\\gui_parametros.png",
+    "source_sha256": "3e168569905d024c517b2987b290275893f930746119d6accfa5e35ed832e4a9",
+    "pixel_box": [
+      1710,
+      0,
+      1980,
+      54
+    ],
+    "operation": "Native crop; no redrawing or resampling",
+    "output_sha256": "d7c3f2de8e53e8a03d5eb419a833312a85d89f974b5430beb1c4d743145fd51d"
+  },
+  "ejecutar": {
+    "source": "C:\\repos\\Potencia_proyecto\\presentacion_assets\\capturas\\gui_parametros.png",
+    "source_sha256": "3e168569905d024c517b2987b290275893f930746119d6accfa5e35ed832e4a9",
+    "pixel_box": [
+      500,
+      117,
+      880,
+      174
+    ],
+    "operation": "Native crop; no redrawing or resampling",
+    "output_sha256": "9b6ed67736022d153a798d1a72e4e52deeb61f299b3ff2cf4cf874e349276e52"
+  },
+  "resumen": {
+    "source": "C:\\repos\\Potencia_proyecto\\presentacion_assets\\capturas\\gui_comparacion.png",
+    "source_sha256": "08cb02fd763da8d4b297b6a36f7edfb9b94bd6a9d2aa6a9f2b333bf4711180fd",
+    "pixel_box": [
+      0,
+      26,
+      890,
+      164
+    ],
+    "operation": "Native crop; no redrawing or resampling",
+    "output_sha256": "61b58e293d295d6c28e1937e70573e769104001053e5d108174e67396e073766"
+  }
+}

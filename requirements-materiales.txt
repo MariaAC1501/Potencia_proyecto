@@ -1,0 +1,12 @@
+# Python used to prepare Excel and regenerate/check report + slides.
+# Numerical power-flow solvers run in MATLAB; these packages do not replace them.
+openpyxl==3.1.5
+numpy==2.4.6
+matplotlib==3.10.9
+python-pptx==1.0.2
+python-docx==1.2.0
+PyMuPDF==1.28.2
+Pillow==12.2.0
+pywin32==312; sys_platform == 'win32'
+# Typst is a separate CLI. MATLAB is required for numerical runs.
+# PowerPoint + Excel are required only for Office desktop capture/render scripts.

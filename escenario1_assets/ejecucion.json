@@ -1,0 +1,18 @@
+{
+  "matlabVersion": "25.1.0.2973910 (R2025a) Update 1",
+  "timestampUTC": "2026-11-15T04:28:37Z",
+  "baseInput": "C:\\repos\\Potencia_proyecto\\data\\IEEE118.xlsx",
+  "scenarioInput": "C:\\repos\\Potencia_proyecto\\data\\IEEE118_escenario1.xlsx",
+  "branchIndex": 38,
+  "baseOutput": "C:\\repos\\Potencia_proyecto\\resultados_IEEE118_matlab.xlsx",
+  "scenarioOutput": "C:\\repos\\Potencia_proyecto\\resultados_IEEE118_escenario1_matlab.xlsx",
+  "comparisonOutput": "C:\\repos\\Potencia_proyecto\\comparacion_escenario1.xlsx",
+  "tolerance_pu": 1E-8,
+  "relaxation": 1.5,
+  "enforceQLimits": false,
+  "voltageGuideLower": 0.95,
+  "voltageGuideUpper": 1.05,
+  "voltageRoundingMargin": 1E-8,
+  "allConverged": true,
+  "recordingStatus": "Ejecución técnica automatizada; video con voces del grupo pendiente"
+}

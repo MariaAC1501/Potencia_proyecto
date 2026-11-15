@@ -1,0 +1,32 @@
+{
+  "reviewed_at_utc": "2026-11-15T15:42:09.930105+00:00",
+  "word_application_version": "16.0",
+  "checks": [
+    {
+      "file": "INFORME_PROYECTO_MATLAB.pdf",
+      "pages": 31,
+      "chapters_present": 15,
+      "key_values_present": true,
+      "no_blank_pages": true,
+      "page_bounds_verified": true,
+      "sha256": "c490dd5fa6684ed0573948f610e6158363fc2b0f5d7c00f7f9ba50f8546ab60f"
+    },
+    {
+      "file": "informe_assets\\revision_word.pdf",
+      "pages": 31,
+      "chapters_present": 15,
+      "key_values_present": true,
+      "no_blank_pages": true,
+      "page_bounds_verified": true,
+      "sha256": "83bab859a04dba8f71edc8ff4c1c229aecad3e7d845429f3ad8dcc109109d870"
+    }
+  ],
+  "py_compile": true,
+  "word_open_export": true,
+  "documents": {
+    "INFORME_PROYECTO_MATLAB.docx": "94272c5c07b11274fcf4a17cfeb35ef8287d6c4ac89b46f92350f00826dec8b7",
+    "INFORME_PROYECTO_MATLAB.pdf": "c490dd5fa6684ed0573948f610e6158363fc2b0f5d7c00f7f9ba50f8546ab60f"
+  },
+  "reviewer": "tools/review_report_office.py",
+  "not_a_video": true
+}

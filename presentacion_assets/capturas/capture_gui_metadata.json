@@ -1,0 +1,58 @@
+{
+  "figure_size": [
+    2000,
+    1100
+  ],
+  "coordinate_system": "MATLAB figure pixels, bottom-left; [x y width height]",
+  "crops": {
+    "gui_archivo": [
+      10,
+      1038,
+      1980,
+      58
+    ],
+    "gui_parametros": [
+      10,
+      864,
+      1980,
+      174
+    ],
+    "gui_comparacion": [
+      11,
+      11,
+      1980,
+      593
+    ]
+  },
+  "results": [
+    {
+      "Metodo": "Newton-Raphson",
+      "Convergio": true,
+      "Iteraciones": 3,
+      "ErrorFinalPU": 1.48832036623215E-12,
+      "PerdidasPMW": 132.86287188870665
+    },
+    {
+      "Metodo": "Gauss-Seidel",
+      "Convergio": true,
+      "Iteraciones": 757,
+      "ErrorFinalPU": 9.875174455942215E-9,
+      "PerdidasPMW": 132.86287234676371
+    },
+    {
+      "Metodo": "Desacoplado rápido",
+      "Convergio": true,
+      "Iteraciones": 9,
+      "ErrorFinalPU": 2.7454705731067008E-9,
+      "PerdidasPMW": 132.86287188613261
+    }
+  ],
+  "loaded_file": "C:\\repos\\Potencia_proyecto\\data\\IEEE118.xlsx",
+  "callback": "Original ButtonPushedFcn: Cargar caso; Ejecutar métodos (Todos)",
+  "options": {
+    "tolerance": 1E-8,
+    "relaxation": 1.5,
+    "enforceQLimits": false,
+    "maxIterations": 1000
+  }
+}

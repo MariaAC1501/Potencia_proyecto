@@ -1,0 +1,939 @@
+{
+  "compiled_at_utc": "2026-11-15T15:41:55.645397+00:00",
+  "description": "Lectura de resultados guardados; no se ejecutaron nuevamente los solucionadores.",
+  "files": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE14_matlab.xlsx",
+      "sha256": "e6368d7da8ca89ae399ba8de0596cf6174150f47544b64740cf5c040694ddb16",
+      "bytes": 31674
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE118_matlab.xlsx",
+      "sha256": "e93920c849c94424963c6b78d764bdb759e233114ddac579363728b4f96d5a10",
+      "bytes": 187116
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\resultados_IEEE300_matlab.xlsx",
+      "sha256": "c1cff1c2d6bec51fcc179f558625f5f13d633cadea924a83723f2293fc730268",
+      "bytes": 431455
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\validacion_MATPOWER.xlsx",
+      "sha256": "f9996b322e0d6e6f7a175802c58c9c7b895850ea4624c90e60cbc83592735d15",
+      "bytes": 392730
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\validacion_MATPOWER.json",
+      "sha256": "898e84b23685d6a7afa0531711248f5b6158858acab9205e008f7a10f501242c",
+      "bytes": 8260
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE14.xlsx",
+      "sha256": "899788cb6e0f9811daac5fb6eee161402ea9b8131ba5c75ad8a0e2d9498f0013",
+      "bytes": 10060
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE118.xlsx",
+      "sha256": "ed5db20ffdad419d2e87d294003c5a2bff0f64c32cae33ca126375f827b8caad",
+      "bytes": 25679
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\data\\IEEE300.xlsx",
+      "sha256": "9962150e111cd6951ad0dc7d165592db79af0219dca1966be019a7eb10be4443",
+      "bytes": 45413
+    }
+  ],
+  "code_files": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\app_flows.m",
+      "sha256": "fd3cb0ec03ebe9067107dfbafab62abf0d19aeec28e5742c4c7ffd1a0450130a",
+      "bytes": 23339
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\apply_q_limits.m",
+      "sha256": "c2d2d467ecbca92e760d5fc5d744b9ff0f587e4201fc242b158277e6ffd753a1",
+      "bytes": 840
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\assemble_result.m",
+      "sha256": "fac49de3d61577b420a702b879462c09f5cb9af40e325781b008fedbad90a061",
+      "bytes": 2466
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\build_ybus.m",
+      "sha256": "b1a7378387b77eb52517d1f8edd71286e69ce1b7f7e72354c8da31d906e64651",
+      "bytes": 1063
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\bus_sets.m",
+      "sha256": "d44dd05daa112fa1f5df6bf4a5a8f65cc15ef9cefb1f38cbd2b9de5dd628a311",
+      "bytes": 311
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\calculate_branch_flows.m",
+      "sha256": "e035c53d397e08d9ed08dc3f88e0473f477173d81f5d4bb3e3ef08162d511405",
+      "bytes": 1740
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\calculate_power.m",
+      "sha256": "57f4754022649ee13bd5cc31d7da0dea809be41c090411a9caa5a5fa96b9be87",
+      "bytes": 188
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\compare_scenario1.m",
+      "sha256": "5cefcbf6b94bbe794ea039a4b6a30186c94d368d6de4c44ad37aeb5f468cf80a",
+      "bytes": 7845
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\export_results_excel.m",
+      "sha256": "3cc885db510d823abc9c598b96755a55426c5fce986952e265af52052e45067d",
+      "bytes": 2259
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\fast_decoupled_matrices.m",
+      "sha256": "273e01c24e653d85c01d39c40ef7ef6ae36b2fc64564a7e3b288e6ef5a700add",
+      "bytes": 870
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\initial_voltage.m",
+      "sha256": "20bb8d86ae32eefa21bf58e265f08a564bf666c4cb709bde39a9dd1f35072505",
+      "bytes": 190
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\load_case_excel.m",
+      "sha256": "61f7dbceaf1dbfd38333c76fd1899c4e0183e1ba07260656dbd6add3b99a52e5",
+      "bytes": 6802
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\log_powerflow_iteration.m",
+      "sha256": "f18c7d365fec9597b9b0f0b67c87ecd268bfc3fd122958e8d3d0c010602b8102",
+      "bytes": 374
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\main.m",
+      "sha256": "b923c2331fb4422d9c585c564f0fb903bb1f63c0dcf4a9a074fe28329e51709f",
+      "bytes": 2876
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\plot_convergence.m",
+      "sha256": "87fbbde63996c49cf2586e5c8dbcacdc65341a8a42a0e6feb35168e3b8532b9a",
+      "bytes": 1155
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\plot_results.m",
+      "sha256": "26a3e6d63586141b9676fc2f5774d0e534a4c3ace6181e666a892eb53a976a59",
+      "bytes": 1033
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\plot_scenario1.m",
+      "sha256": "ec978e8e972382b398780ee5c4dc0360b3c30963d5fe1d4d6b0dcb6ba73cec99",
+      "bytes": 1686
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\power_mismatch.m",
+      "sha256": "7b1c449cfe9cce17ec03432af8115c973bb9b4233e5e00e6fbf8df7b80b03e77",
+      "bytes": 440
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\recommended_max_iterations.m",
+      "sha256": "3785d63f8ca8f41e4f29cb52707b1fa42c81d2998ced70f5eff604fb26ffda6a",
+      "bytes": 942
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\recommended_tolerance.m",
+      "sha256": "64ec5152442f6668320ad56335a0e640753fc4e7d20cdff63fc30a5a8c3220cf",
+      "bytes": 485
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\resolve_powerflow_files.m",
+      "sha256": "06b083ba3cb062d8fe56d4d6ac11c4a1cf7bfb11d7f43c560f160c0645b0ff4a",
+      "bytes": 573
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\result_comparison.m",
+      "sha256": "c29e5b84c3066a801ce4b0b48935a6669520303a0787419ea7f75e305b353d4f",
+      "bytes": 1056
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\run_video_project.m",
+      "sha256": "fe1a7c97bb9f6fc22b29a0c02f944501ebd56d0199d16622d8eadbd5c3a4180c",
+      "bytes": 3258
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_fast_decoupled.m",
+      "sha256": "b807ef65a9d8b7ff28153ceecac7a27b1c8259a4efa1dee6ed3a66aefa17ff20",
+      "bytes": 2637
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_gauss_seidel.m",
+      "sha256": "dc4fd7aa000f3ba55e3f3283422f3b4ae19cc0f75eecf06ccd7884f24a2b39a7",
+      "bytes": 2238
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_newton_raphson.m",
+      "sha256": "76257802d6b3f26389c74ad8a1765c8d27d1c5a6c3b98312f00ea929dcde52ae",
+      "bytes": 3565
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\solve_power_flow.m",
+      "sha256": "a59ce3bef40d6531d3caad31a37b9665116d0243ce2bf26adf33653f1ae4350a",
+      "bytes": 2112
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\specified_power.m",
+      "sha256": "41c7bff9a318877edc6526e31e701be1e92b6ad180695e87e2cb75a79892d9c2",
+      "bytes": 553
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_app_flows.m",
+      "sha256": "86801046faeb951b4cb1e164bbdc5b61f9bf1f3cd397644dadd736e4dbceaa0f",
+      "bytes": 9184
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_plot_convergence.m",
+      "sha256": "8877aa7f85d35875b1b0ff3bd47ad737ad9bc4672153060bd8d86de84576dd0c",
+      "bytes": 2686
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_powerflow.m",
+      "sha256": "8a5f6c6af1ce068bc318f41a8f055d736f5f8fbdba787444f1271535209c712b",
+      "bytes": 13044
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\test_scenario1.m",
+      "sha256": "2b26847ba7070086ce6668a6482c29551b890aecccbb9b93748e48e5a827e661",
+      "bytes": 4840
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\validate_against_matpower.m",
+      "sha256": "781c3641b9de45a1b51ca543437eed5bb75803665b1e13e6052570dd959fc985",
+      "bytes": 10650
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\validate_case.m",
+      "sha256": "ef999c5be77adb098edd7492f74eaf2129e7e88097cd86f1ac25367d44995a55",
+      "bytes": 1101
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\validate_line_outage.m",
+      "sha256": "5b87add8802b2aef7ffddba0a21c7bae79b62261d1e39e123b6ae23f081befd1",
+      "bytes": 1439
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\matlab\\voltage_setpoints.m",
+      "sha256": "f06426876b505343b4734dfd6abba393454ad1afbbdb13017d689373f4693f13",
+      "bytes": 1582
+    }
+  ],
+  "verification_logs": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\verificacion_MATLAB.log",
+      "sha256": "7fe5cfe7875732456e26c7227906090044ddab2feb37867026a451ba01299325",
+      "bytes": 49775
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\pruebas_GUI_escenario1.log",
+      "sha256": "5482d72cdad42a44437fbfdbc71df76df3545c42cb3ef3c1fa256ce74e7e57db",
+      "bytes": 383422
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\pruebas_escenario1.log",
+      "sha256": "a9fc3c750609fab0ffe7296b908ac0d7a3e3d87d77e2dcbb9e6f071e8c9cee0b",
+      "bytes": 1070
+    }
+  ],
+  "gui_capture_inputs": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\gui_caso_base.png",
+      "sha256": "36580cde57ec4695f707ac92982b97ca792714a9c0921809e615ae3cfe6d765a",
+      "bytes": 144404
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\gui_salida_26_30.png",
+      "sha256": "a9f3ee028c49b85c342245a6150862ff4abe3e4d5b5bf96e106f38406df4e3c1",
+      "bytes": 172409
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\escenario1_assets\\captura_GUI_escenario1.json",
+      "sha256": "b98fdae302f885e8ff0f655e5837e243f0f743cbeb4817e7d1d1cdae11bd964c",
+      "bytes": 4097
+    }
+  ],
+  "reference_metadata": {
+    "matlabVersion": "25.1.0.2973910 (R2025a) Update 1",
+    "matpowerVersion": "8.1",
+    "matpowerReleaseDate": "12-Jul-2025",
+    "timestampUTC": "2026-11-15T04:31:09Z",
+    "referenceAlgorithm": "MATPOWER Newton-Raphson",
+    "referenceTolerance_pu": 1e-10,
+    "ownTolerance_pu": 1e-08,
+    "enforceQLimits": false,
+    "thresholds": {
+      "VM_pu": 1e-07,
+      "VA_deg": 1e-05,
+      "BranchP_MW": 0.0001,
+      "BranchQ_MVAr": 0.0001,
+      "PLoss_MW": 0.0001,
+      "QLoss_MVAr": 0.0001,
+      "SlackP_MW": 0.0001,
+      "SlackQ_MVAr": 0.0001
+    },
+    "officialIEEE118InputCheck": {
+      "matches": true,
+      "baseMVAError": 0,
+      "maxBusDataError": 0,
+      "maxGenDataError": 0,
+      "maxBranchDataError": 0
+    },
+    "allPassed": true,
+    "comparisons": [
+      {
+        "Case": "IEEE14",
+        "Method": "Newton-Raphson",
+        "MaxAbsVMError_pu": 5.479838804944848e-12,
+        "MaxAbsVAError_deg": 2.6201973923889454e-10,
+        "MaxAbsBranchPError_MW": 3.2747209388617193e-09,
+        "MaxAbsBranchQError_MVAr": 5.222901222623477e-09,
+        "AbsPLossError_MW": 4.669526987299832e-10,
+        "Passed": true,
+        "Iterations": 2,
+        "MaxMismatch_pu": 1.3158226591647448e-10,
+        "Reference": "MATPOWER NR sobre los mismos datos Excel",
+        "AbsQLossError_MVAr": 2.0337900252798136e-09,
+        "AbsSlackPError_MW": 4.640554607249214e-09,
+        "AbsSlackQError_MVAr": 6.999840707067051e-10,
+        "ReferencePLoss_MW": 13.393272357898756,
+        "ReferenceQLoss_MVAr": 30.122388046907787,
+        "ReferenceSlackP_MW": 232.39327235789852,
+        "ReferenceSlackQ_MVAr": -16.549300541388394
+      },
+      {
+        "Case": "IEEE14",
+        "Method": "Gauss-Seidel",
+        "MaxAbsVMError_pu": 2.9569835469089867e-10,
+        "MaxAbsVAError_deg": 1.6040627315305755e-07,
+        "MaxAbsBranchPError_MW": 1.8629780527135154e-06,
+        "MaxAbsBranchQError_MVAr": 7.511531556758655e-07,
+        "AbsPLossError_MW": 2.308071138656942e-07,
+        "Passed": true,
+        "Iterations": 37,
+        "MaxMismatch_pu": 8.292474429349994e-09,
+        "Reference": "MATPOWER NR sobre los mismos datos Excel",
+        "AbsQLossError_MVAr": 9.637006250784452e-07,
+        "AbsSlackPError_MW": 2.6243614286158845e-06,
+        "AbsSlackQError_MVAr": 3.7582496403842924e-07,
+        "ReferencePLoss_MW": 13.393272357898756,
+        "ReferenceQLoss_MVAr": 30.122388046907787,
+        "ReferenceSlackP_MW": 232.39327235789852,
+        "ReferenceSlackQ_MVAr": -16.549300541388394
+      },
+      {
+        "Case": "IEEE14",
+        "Method": "Desacoplado rápido",
+        "MaxAbsVMError_pu": 1.1751819517513695e-09,
+        "MaxAbsVAError_deg": 1.6157002846739488e-08,
+        "MaxAbsBranchPError_MW": 5.43444227174561e-07,
+        "MaxAbsBranchQError_MVAr": 3.6095106947797717e-07,
+        "AbsPLossError_MW": 7.46878825452768e-09,
+        "Passed": true,
+        "Iterations": 13,
+        "MaxMismatch_pu": 8.154607405996828e-09,
+        "Reference": "MATPOWER NR sobre los mismos datos Excel",
+        "AbsQLossError_MVAr": 1.263541093976528e-08,
+        "AbsSlackPError_MW": 4.447912260729936e-09,
+        "AbsSlackQError_MVAr": 2.160295053954542e-09,
+        "ReferencePLoss_MW": 13.393272357898756,
+        "ReferenceQLoss_MVAr": 30.122388046907787,
+        "ReferenceSlackP_MW": 232.39327235789852,
+        "ReferenceSlackQ_MVAr": -16.549300541388394
+      },
+      {
+        "Case": "IEEE118",
+        "Method": "Newton-Raphson",
+        "MaxAbsVMError_pu": 8.881784197001252e-16,
+        "MaxAbsVAError_deg": 8.526512829121202e-14,
+        "MaxAbsBranchPError_MW": 3.922195901395753e-12,
+        "MaxAbsBranchQError_MVAr": 2.7355895326763857e-12,
+        "AbsPLossError_MW": 6.281197784119286e-12,
+        "Passed": true,
+        "Iterations": 3,
+        "MaxMismatch_pu": 1.48832036623215e-12,
+        "Reference": "case118.m oficial MATPOWER; entradas verificadas",
+        "AbsQLossError_MVAr": 4.774847184307873e-12,
+        "AbsSlackPError_MW": 3.524291969370097e-12,
+        "AbsSlackQError_MVAr": 2.5579538487363607e-13,
+        "ReferencePLoss_MW": 132.86287188870037,
+        "ReferenceQLoss_MVAr": -557.9474231216471,
+        "ReferenceSlackP_MW": 513.8628718886939,
+        "ReferenceSlackQ_MVAr": -82.42405729227245
+      },
+      {
+        "Case": "IEEE118",
+        "Method": "Gauss-Seidel",
+        "MaxAbsVMError_pu": 9.893363905888464e-11,
+        "MaxAbsVAError_deg": 3.4724877195912995e-07,
+        "MaxAbsBranchPError_MW": 3.201474326530729e-06,
+        "MaxAbsBranchQError_MVAr": 5.45040585109291e-07,
+        "AbsPLossError_MW": 4.580633401474188e-07,
+        "Passed": true,
+        "Iterations": 757,
+        "MaxMismatch_pu": 9.875174455942215e-09,
+        "Reference": "case118.m oficial MATPOWER; entradas verificadas",
+        "AbsQLossError_MVAr": 2.9780280783597846e-06,
+        "AbsSlackPError_MW": 6.367359105752257e-06,
+        "AbsSlackQError_MVAr": 3.9152321562596626e-07,
+        "ReferencePLoss_MW": 132.86287188870037,
+        "ReferenceQLoss_MVAr": -557.9474231216471,
+        "ReferenceSlackP_MW": 513.8628718886939,
+        "ReferenceSlackQ_MVAr": -82.42405729227245
+      },
+      {
+        "Case": "IEEE118",
+        "Method": "Desacoplado rápido",
+        "MaxAbsVMError_pu": 5.033817807031937e-11,
+        "MaxAbsVAError_deg": 6.886551773277461e-09,
+        "MaxAbsBranchPError_MW": 1.8440941573771852e-07,
+        "MaxAbsBranchQError_MVAr": 1.351323675180538e-08,
+        "AbsPLossError_MW": 2.56775933848985e-09,
+        "Passed": true,
+        "Iterations": 9,
+        "MaxMismatch_pu": 2.745470573106701e-09,
+        "Reference": "case118.m oficial MATPOWER; entradas verificadas",
+        "AbsQLossError_MVAr": 7.104858923412394e-09,
+        "AbsSlackPError_MW": 4.807839104614686e-08,
+        "AbsSlackQError_MVAr": 2.3444926000593114e-09,
+        "ReferencePLoss_MW": 132.86287188870037,
+        "ReferenceQLoss_MVAr": -557.9474231216471,
+        "ReferenceSlackP_MW": 513.8628718886939,
+        "ReferenceSlackQ_MVAr": -82.42405729227245
+      },
+      {
+        "Case": "IEEE300",
+        "Method": "Newton-Raphson",
+        "MaxAbsVMError_pu": 5.218048215738236e-15,
+        "MaxAbsVAError_deg": 1.1937117960769683e-12,
+        "MaxAbsBranchPError_MW": 1.9532819806045154e-11,
+        "MaxAbsBranchQError_MVAr": 8.481038094032556e-11,
+        "AbsPLossError_MW": 9.208633855450898e-12,
+        "Passed": true,
+        "Iterations": 2,
+        "MaxMismatch_pu": 7.807865465281338e-12,
+        "Reference": "MATPOWER NR sobre los mismos datos Excel",
+        "AbsQLossError_MVAr": 4.8260062612826005e-11,
+        "AbsSlackPError_MW": 1.4210854715202004e-11,
+        "AbsSlackQError_MVAr": 1.4921397450962104e-12,
+        "ReferencePLoss_MW": 408.98554060709705,
+        "ReferenceQLoss_MVAr": -393.8441165471819,
+        "ReferenceSlackP_MW": 456.61627122334824,
+        "ReferenceSlackQ_MVAr": 38.97679558764755
+      },
+      {
+        "Case": "IEEE300",
+        "Method": "Gauss-Seidel",
+        "MaxAbsVMError_pu": 2.1819124285116231e-10,
+        "MaxAbsVAError_deg": 3.143584876852401e-07,
+        "MaxAbsBranchPError_MW": 5.92402358279287e-06,
+        "MaxAbsBranchQError_MVAr": 8.170976713017808e-07,
+        "AbsPLossError_MW": 5.77003334001347e-07,
+        "Passed": true,
+        "Iterations": 2693,
+        "MaxMismatch_pu": 9.989326921200359e-09,
+        "Reference": "MATPOWER NR sobre los mismos datos Excel",
+        "AbsQLossError_MVAr": 2.921758664342633e-06,
+        "AbsSlackPError_MW": 5.92402358279287e-06,
+        "AbsSlackQError_MVAr": 3.1619214269085205e-07,
+        "ReferencePLoss_MW": 408.98554060709705,
+        "ReferenceQLoss_MVAr": -393.8441165471819,
+        "ReferenceSlackP_MW": 456.61627122334824,
+        "ReferenceSlackQ_MVAr": 38.97679558764755
+      },
+      {
+        "Case": "IEEE300",
+        "Method": "Desacoplado rápido",
+        "MaxAbsVMError_pu": 3.093594269643063e-10,
+        "MaxAbsVAError_deg": 1.70941518717882e-08,
+        "MaxAbsBranchPError_MW": 6.648793799968189e-07,
+        "MaxAbsBranchQError_MVAr": 5.5645086760591767e-08,
+        "AbsPLossError_MW": 3.0076989787630737e-09,
+        "Passed": true,
+        "Iterations": 25,
+        "MaxMismatch_pu": 6.628969822716768e-09,
+        "Reference": "MATPOWER NR sobre los mismos datos Excel",
+        "AbsQLossError_MVAr": 3.0809701456746552e-09,
+        "AbsSlackPError_MW": 1.9537083062459715e-10,
+        "AbsSlackQError_MVAr": 2.553193212406768e-10,
+        "ReferencePLoss_MW": 408.98554060709705,
+        "ReferenceQLoss_MVAr": -393.8441165471819,
+        "ReferenceSlackP_MW": 456.61627122334824,
+        "ReferenceSlackQ_MVAr": 38.97679558764755
+      }
+    ]
+  },
+  "case_analysis": {
+    "14": {
+      "generation": 272.39327235743156,
+      "demand": 259.0,
+      "loss": 13.393272357431803,
+      "shunt": 0.0,
+      "total_loss": 13.393272357431803,
+      "minimum": {
+        "BUS_I": 3,
+        "TYPE": 2,
+        "PD": 94.2,
+        "QD": 19,
+        "GS": 0,
+        "BS": 0,
+        "AREA": 1,
+        "VM": 1.01,
+        "VA": -12.72,
+        "BASE_KV": 0,
+        "ZONE": 1,
+        "VMAX": 1.1,
+        "VMIN": 0.9,
+        "TipoNombre": "PV",
+        "VM_pu": 1.01,
+        "VA_deg": -12.725099938025274,
+        "P_calc_MW": -94.19999999890642,
+        "Q_calc_MVAr": 6.07534849540941,
+        "P_spec_MW": -94.2,
+        "Q_spec_MVAr": 4.399999999999999,
+        "P_gen_calculada_MW": 1.093582113753655e-09,
+        "Q_gen_calculada_MVAr": 25.07534849540941,
+        "P_load_MW": 94.2,
+        "Q_load_MVAr": 19,
+        "Error_P_MW": -1.0935807814860254e-09,
+        "Error_Q_MVAr": -1.6753484954094122,
+        "Es_variable_angulo": true,
+        "Es_variable_VM": false
+      },
+      "maximum": {
+        "BUS_I": 8,
+        "TYPE": 2,
+        "PD": 0,
+        "QD": 0,
+        "GS": 0,
+        "BS": 0,
+        "AREA": 1,
+        "VM": 1.09,
+        "VA": -13.36,
+        "BASE_KV": 0,
+        "ZONE": 1,
+        "VMAX": 1.1,
+        "VMIN": 0.9,
+        "TipoNombre": "PV",
+        "VM_pu": 1.09,
+        "VA_deg": -13.359627365143648,
+        "P_calc_MW": 5.708974959439672e-11,
+        "Q_calc_MVAr": 17.623451366399088,
+        "P_spec_MW": 0,
+        "Q_spec_MVAr": 17.4,
+        "P_gen_calculada_MW": 5.708974959439672e-11,
+        "Q_gen_calculada_MVAr": 17.623451366399088,
+        "P_load_MW": 0,
+        "Q_load_MVAr": 0,
+        "Error_P_MW": -5.708974959439672e-11,
+        "Error_Q_MVAr": -0.22345136639908836,
+        "Es_variable_angulo": true,
+        "Es_variable_VM": false
+      },
+      "q_generation": 82.43754387046506,
+      "q_demand": 73.5,
+      "q_branch": 30.122388044873997,
+      "q_shunt": -21.184844174407274,
+      "p_residual": -2.469136006766348e-13,
+      "q_residual": -1.659117287999834e-12,
+      "pv": 4,
+      "pq": 9,
+      "slack": 1,
+      "unknowns": 22,
+      "voltage_violations": 0,
+      "q_violations": [],
+      "rated_branches": 0,
+      "internal_vm": 1.1754741624514509e-09,
+      "internal_va": 1.6020857174225966e-07,
+      "internal_loss": 2.303401611669642e-07
+    },
+    "118": {
+      "generation": 4374.862871888704,
+      "demand": 4242.0,
+      "loss": 132.86287188870665,
+      "shunt": 0.0,
+      "total_loss": 132.86287188870665,
+      "minimum": {
+        "BUS_I": 76,
+        "TYPE": 2,
+        "PD": 68,
+        "QD": 36,
+        "GS": 0,
+        "BS": 0,
+        "AREA": 1,
+        "VM": 0.943,
+        "VA": 21.77,
+        "BASE_KV": 138,
+        "ZONE": 1,
+        "VMAX": 1.06,
+        "VMIN": 0.94,
+        "TipoNombre": "PV",
+        "VM_pu": 0.9430000000000001,
+        "VA_deg": 21.798787419356053,
+        "P_calc_MW": -67.99999999999999,
+        "Q_calc_MVAr": -30.73189911726813,
+        "P_spec_MW": -68,
+        "Q_spec_MVAr": -36,
+        "P_gen_calculada_MW": 1.4210854715202004e-14,
+        "Q_gen_calculada_MVAr": 5.2681008827318685,
+        "P_load_MW": 68,
+        "Q_load_MVAr": 36,
+        "Error_P_MW": -2.220446049250313e-14,
+        "Error_Q_MVAr": -5.2681008827318685,
+        "Es_variable_angulo": true,
+        "Es_variable_VM": false
+      },
+      "maximum": {
+        "BUS_I": 10,
+        "TYPE": 2,
+        "PD": 0,
+        "QD": 0,
+        "GS": 0,
+        "BS": 0,
+        "AREA": 1,
+        "VM": 1.05,
+        "VA": 35.61,
+        "BASE_KV": 345,
+        "ZONE": 1,
+        "VMAX": 1.06,
+        "VMIN": 0.94,
+        "TipoNombre": "PV",
+        "VM_pu": 1.05,
+        "VA_deg": 35.87559859712098,
+        "P_calc_MW": 450.0000000000008,
+        "Q_calc_MVAr": -51.042151591135166,
+        "P_spec_MW": 450,
+        "Q_spec_MVAr": 0,
+        "P_gen_calculada_MW": 450.0000000000008,
+        "Q_gen_calculada_MVAr": -51.042151591135166,
+        "P_load_MW": 0,
+        "Q_load_MVAr": 0,
+        "Error_P_MW": -7.993605777301127e-13,
+        "Error_Q_MVAr": 51.042151591135166,
+        "Es_variable_angulo": true,
+        "Es_variable_VM": false
+      },
+      "q_generation": 795.6839771038902,
+      "q_demand": 1438,
+      "q_branch": -557.947423121652,
+      "q_shunt": -84.36859977444644,
+      "p_residual": -2.7284841053187847e-12,
+      "q_residual": -1.1283418643870391e-11,
+      "pv": 53,
+      "pq": 64,
+      "slack": 69,
+      "unknowns": 181,
+      "voltage_violations": 0,
+      "q_violations": [
+        19,
+        32,
+        34,
+        92,
+        103,
+        105
+      ],
+      "rated_branches": 0,
+      "internal_vm": 9.893363905888464e-11,
+      "internal_va": 3.472488003808394e-07,
+      "internal_loss": 4.5805705894963467e-07
+    },
+    "300": {
+      "generation": 23657.056271223923,
+      "demand": 23246.86,
+      "loss": 408.98554060710626,
+      "shunt": 1.2107306168247698,
+      "total_loss": 410.19627122393103,
+      "minimum": {
+        "BUS_I": 9033,
+        "TYPE": 1,
+        "PD": 1.89,
+        "QD": 0.65,
+        "GS": 0.1,
+        "BS": 0,
+        "AREA": 1,
+        "VM": 0.9286,
+        "VA": -25.33,
+        "BASE_KV": 0.6,
+        "ZONE": 9,
+        "VMAX": 1.1,
+        "VMIN": 0.9,
+        "TipoNombre": "PQ",
+        "VM_pu": 0.9287111375668595,
+        "VA_deg": -25.348901656331314,
+        "P_calc_MW": -1.8899999999984323,
+        "Q_calc_MVAr": -0.6499999999995032,
+        "P_spec_MW": -1.8900000000000001,
+        "Q_spec_MVAr": -0.65,
+        "P_gen_calculada_MW": 1.567634910770721e-12,
+        "Q_gen_calculada_MVAr": 4.968248035197576e-13,
+        "P_load_MW": 1.89,
+        "Q_load_MVAr": 0.65,
+        "Error_P_MW": -1.5678430775878383e-12,
+        "Error_Q_MVAr": -4.968248035197576e-13,
+        "Es_variable_angulo": true,
+        "Es_variable_VM": true
+      },
+      "maximum": {
+        "BUS_I": 149,
+        "TYPE": 2,
+        "PD": 0,
+        "QD": 0,
+        "GS": 0,
+        "BS": 0,
+        "AREA": 1,
+        "VM": 1.0735,
+        "VA": 5.23,
+        "BASE_KV": 230,
+        "ZONE": 2,
+        "VMAX": 1.1,
+        "VMIN": 0.9,
+        "TipoNombre": "PV",
+        "VM_pu": 1.0735,
+        "VA_deg": 5.229740837473558,
+        "P_calc_MW": 102.99999999999983,
+        "Q_calc_MVAr": 49.96855919852916,
+        "P_spec_MW": 103,
+        "Q_spec_MVAr": 0,
+        "P_gen_calculada_MW": 102.99999999999983,
+        "Q_gen_calculada_MVAr": 49.96855919852916,
+        "P_load_MW": 0,
+        "Q_load_MVAr": 0,
+        "Error_P_MW": 1.7763568394002505e-13,
+        "Error_Q_MVAr": -49.96855919852916,
+        "Es_variable_angulo": true,
+        "Es_variable_VM": false
+      },
+      "q_generation": 7993.661075784853,
+      "q_demand": 7787.97,
+      "q_branch": -393.8441165471335,
+      "q_shunt": 599.535192332009,
+      "p_residual": -9.088729768791382e-12,
+      "q_residual": -2.2737367544323206e-11,
+      "pv": 68,
+      "pq": 231,
+      "slack": 7049,
+      "unknowns": 530,
+      "voltage_violations": 0,
+      "q_violations": [
+        10,
+        20,
+        156,
+        170,
+        171,
+        236,
+        7003,
+        7055,
+        7062,
+        7071,
+        9002
+      ],
+      "rated_branches": 0,
+      "internal_vm": 3.0936453399021957e-10,
+      "internal_va": 3.1435740766028175e-07,
+      "internal_loss": 5.770125426352024e-07
+    }
+  },
+  "document_source": {
+    "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.md",
+    "sha256": "f427dc8e03ccc6524e8c411c7536d74301ea4673cc2c14916104884c7e8c8264",
+    "bytes": 79518
+  },
+  "document_template": {
+    "path": "C:\\repos\\Potencia_proyecto\\INFORME_PROYECTO_MATLAB.typ",
+    "sha256": "e8fc8d8c66acdb7085c6fc8144e210bcbcf2502540860e3b6f57dcea7be0a042",
+    "bytes": 6724
+  },
+  "figures": [
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\arquitectura.png",
+      "sha256": "2b526eccd1ebcacdb745cd19781d1d1884408de5c564cdd815bd15da3d1455c6",
+      "bytes": 70257
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\comparacion_metodos.png",
+      "sha256": "37a0980b8435a3db3fa05b3845fbe6bdf39cf2145b0e095ce3817c413b6bf1a4",
+      "bytes": 72619
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\convergencia_IEEE118.png",
+      "sha256": "51d14cdcc2372ecad2a2bc3821231b572244a738c20a25569c62b2a181b27616",
+      "bytes": 104248
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\convergencia_IEEE14.png",
+      "sha256": "f201be90558171c8a64f4484efa3aab171cd22327f2a96de78aad45b50061f4e",
+      "bytes": 105559
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\convergencia_IEEE300.png",
+      "sha256": "764671a1f029a9b72df580eb1d07cbe39b211b0ec20d4c78e223667fe0100167",
+      "bytes": 103553
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\estado_IEEE118.png",
+      "sha256": "fde52f9b6ff27541f12a8704b820abf8df96e91b6dbeb5488e2e70a769383e25",
+      "bytes": 226193
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\estado_IEEE14.png",
+      "sha256": "032d11e9a9db38dee8800385a18e320efc1c37d65697ed579534bf852bbd3c75",
+      "bytes": 93388
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\estado_IEEE300.png",
+      "sha256": "f880efa0e8691abd591f428f47f68e2686912d1f60a6bd9ece4f8f5150706db1",
+      "bytes": 316503
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\interfaz.png",
+      "sha256": "36580cde57ec4695f707ac92982b97ca792714a9c0921809e615ae3cfe6d765a",
+      "bytes": 144404
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\metodos.png",
+      "sha256": "f07697cbda66ecb4b12f20ce4c5a96b2bf07653176a585325cf4eb761fe453ae",
+      "bytes": 62099
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\revision_pdf_16.png",
+      "sha256": "ac1989fe660983cb64763ffb29310e0289b3fa57554a4ef299a9997d46547503",
+      "bytes": 147493
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\revision_pdf_17.png",
+      "sha256": "258e858588a6b77d689c9e6b7fbe93f41b376cf4de9dc27968beade2e1a31202",
+      "bytes": 62689
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\revision_pdf_18.png",
+      "sha256": "e70c5b8290be0d2dc15e60fddc75d46cae73e8a0ef8539a0c4a35d6aa1632cc0",
+      "bytes": 161150
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\revision_pdf_21.png",
+      "sha256": "37110229ff5f88f656f9780e4a009e6ebe1355fd7701441151e1a870d9257bc9",
+      "bytes": 113574
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\revision_word_16.png",
+      "sha256": "65907602f6fe0031ac0db9823e53e2db2ff789d50e5c736d28ee6a2ddbf661f6",
+      "bytes": 149776
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\revision_word_17.png",
+      "sha256": "2b390be461dc9f90c76580f96f3e8210ab088768c63a9245f5cf69d1793389d6",
+      "bytes": 107845
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\revision_word_21.png",
+      "sha256": "85f2870caa089c430abc3cfe2c9f22fa6de7b15f4e4c4b4775e784fa4d0a1eb8",
+      "bytes": 81220
+    },
+    {
+      "path": "C:\\repos\\Potencia_proyecto\\informe_assets\\validacion_tensiones.png",
+      "sha256": "0ef01656562ce598401b9f018cb33daf8a38388661f90136c32075cff6b1c7b7",
+      "bytes": 40608
+    }
+  ],
+  "comparison_tables": {
+    "14": {
+      "NR": {
+        "Metodo": "Newton-Raphson",
+        "Convergio": true,
+        "Iteraciones": 2,
+        "Error_final_pu": 1.3158226591647448e-10,
+        "Tiempo_s": 0.2303499,
+        "Perdidas_P_MW": 13.393272357431803,
+        "Perdidas_Q_MVAr": 30.122388044873997
+      },
+      "GS": {
+        "Metodo": "Gauss-Seidel",
+        "Convergio": true,
+        "Iteraciones": 37,
+        "Error_final_pu": 8.292474429349994e-09,
+        "Tiempo_s": 0.044553,
+        "Perdidas_P_MW": 13.393272127091642,
+        "Perdidas_Q_MVAr": 30.122387083207162
+      },
+      "FDLF": {
+        "Metodo": "Desacoplado rápido",
+        "Convergio": true,
+        "Iteraciones": 13,
+        "Error_final_pu": 8.154607405996828e-09,
+        "Tiempo_s": 0.0438295,
+        "Perdidas_P_MW": 13.393272350429967,
+        "Perdidas_Q_MVAr": 30.122388034272376
+      }
+    },
+    "118": {
+      "NR": {
+        "Metodo": "Newton-Raphson",
+        "Convergio": true,
+        "Iteraciones": 3,
+        "Error_final_pu": 1.48832036623215e-12,
+        "Tiempo_s": 0.5124774,
+        "Perdidas_P_MW": 132.86287188870665,
+        "Perdidas_Q_MVAr": -557.9474231216519,
+        "P_slack_MW": 513.8628718886904,
+        "Q_slack_MVAr": -82.4240572922727
+      },
+      "GS": {
+        "Metodo": "Gauss-Seidel",
+        "Convergio": true,
+        "Iteraciones": 757,
+        "Error_final_pu": 9.875174455942215e-09,
+        "Tiempo_s": 0.5936096,
+        "Perdidas_P_MW": 132.8628723467637,
+        "Perdidas_Q_MVAr": -557.9474201436191,
+        "P_slack_MW": 513.862878256053,
+        "Q_slack_MVAr": -82.42405768379567
+      },
+      "FDLF": {
+        "Metodo": "Desacoplado rápido",
+        "Convergio": true,
+        "Iteraciones": 9,
+        "Error_final_pu": 2.745470573106701e-09,
+        "Tiempo_s": 0.1288761,
+        "Perdidas_P_MW": 132.8628718861326,
+        "Perdidas_Q_MVAr": -557.947423128752,
+        "P_slack_MW": 513.8628718406155,
+        "Q_slack_MVAr": -82.42405728992796
+      }
+    },
+    "300": {
+      "NR": {
+        "Metodo": "Newton-Raphson",
+        "Convergio": true,
+        "Iteraciones": 2,
+        "Error_final_pu": 7.807865465281338e-12,
+        "Tiempo_s": 0.1117645,
+        "Perdidas_P_MW": 408.98554060710626,
+        "Perdidas_Q_MVAr": -393.84411654713364
+      },
+      "GS": {
+        "Metodo": "Gauss-Seidel",
+        "Convergio": true,
+        "Iteraciones": 2693,
+        "Error_final_pu": 9.989326921200359e-09,
+        "Tiempo_s": 7.443946,
+        "Perdidas_P_MW": 408.9855400300937,
+        "Perdidas_Q_MVAr": -393.84411946894056
+      },
+      "FDLF": {
+        "Metodo": "Desacoplado rápido",
+        "Convergio": true,
+        "Iteraciones": 25,
+        "Error_final_pu": 6.628969822716768e-09,
+        "Tiempo_s": 0.1236188,
+        "Perdidas_P_MW": 408.98554060408935,
+        "Perdidas_Q_MVAr": -393.84411655026287
+      }
+    }
+  }
+}
